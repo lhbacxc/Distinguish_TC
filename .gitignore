@@ -5,6 +5,12 @@ Desktop.ini
 $RECYCLE.BIN/
 .Spotlight-V100/
 .Trashes/
+Photo/
+results/
+project_data/
+__pycache__/
+*.pyc
+*.pyo
 
 *.tmp
 *.temp
