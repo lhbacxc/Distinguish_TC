@@ -9,7 +9,7 @@ IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".bmp", ".tif", ".tiff"}
 GROUP_TYPES = {"blank", "single", "binary", "ternary"}
 
 FILENAME_PATTERN = re.compile(
-    r"^(?P<buffer>[A-Za-z0-9]+)_(?P<group>blank|single|binary|ternary)"
+    r"^(?P<buffer>[^_]+)_(?P<group>blank|single|binary|ternary)"
     r"(?:_(?P<concs>\d+,\d+,\d+))?"
     r"(?:_(?P<repeat>\d+))?$"
 )

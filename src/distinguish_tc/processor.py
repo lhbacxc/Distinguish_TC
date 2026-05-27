@@ -107,13 +107,8 @@ def apply_auto_flags(detections: list[tuple[ImageSample, CropRecord, float, tupl
 
     widths = np.array([rect.w for rect in valid_rects], dtype=np.float32)
     heights = np.array([rect.h for rect in valid_rects], dtype=np.float32)
-    centers_x = np.array([rect.x + rect.w / 2 for rect in valid_rects], dtype=np.float32)
-    centers_y = np.array([rect.y + rect.h / 2 for rect in valid_rects], dtype=np.float32)
-
     width_median = float(np.median(widths))
     height_median = float(np.median(heights))
-    cx_median = float(np.median(centers_x))
-    cy_median = float(np.median(centers_y))
 
     for _, record, score, image_size in detections:
         rect = record.final_rect
@@ -126,16 +121,7 @@ def apply_auto_flags(detections: list[tuple[ImageSample, CropRecord, float, tupl
         if height_median > 0 and abs(rect.h - height_median) / height_median > 0.18:
             reasons.append("高度异常")
 
-        center_x = rect.x + rect.w / 2
-        center_y = rect.y + rect.h / 2
-        if width_median > 0 and abs(center_x - cx_median) / width_median > 0.18:
-            reasons.append("横向位置异常")
-        if height_median > 0 and abs(center_y - cy_median) / height_median > 0.22:
-            reasons.append("纵向位置异常")
-
-        image_width, image_height = image_size
-        if rect.x < image_width * 0.05 or rect.right > image_width * 0.95:
-            reasons.append("过于贴近左右边界")
+        _, image_height = image_size
         if rect.y < image_height * 0.25 or rect.bottom > image_height * 0.95:
             reasons.append("过于贴近上下边界")
         if score < 0.95:

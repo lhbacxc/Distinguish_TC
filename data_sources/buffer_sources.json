@@ -1,0 +1,17 @@
+{
+  "min_presence_uM": 6,
+  "test_size": 0.2,
+  "random_seed": 42,
+  "buffers": [
+    {
+      "buffer_name": "water",
+      "feature_prefix": "water",
+      "csv_path": "project_data/rgb_results/rgb_results.csv"
+    },
+    {
+      "buffer_name": "T=8",
+      "feature_prefix": "tris8",
+      "csv_path": "project_data_t8/rgb_results/rgb_results.csv"
+    }
+  ]
+}
