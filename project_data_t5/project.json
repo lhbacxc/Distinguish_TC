@@ -1,0 +1,3276 @@
+{
+  "version": 2,
+  "source_dir": "D:\\Desktop\\Distinguish_TC\\Photo",
+  "project_dir": "D:\\Desktop\\Distinguish_TC\\project_data_t5",
+  "created_at": "2026-06-01T10:40:14",
+  "updated_at": "2026-06-01T10:40:42",
+  "samples": [
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_0,12,48.jpg",
+      "relative_path": "binary/T=5_binary_0,12,48.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 0,
+      "otc_conc_uM": 12,
+      "ctc_conc_uM": 48,
+      "replicate_id": "R1",
+      "sample_name": "binary_TC0_OTC12_CTC48"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_0,12,48_1.jpg",
+      "relative_path": "binary/T=5_binary_0,12,48_1.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 0,
+      "otc_conc_uM": 12,
+      "ctc_conc_uM": 48,
+      "replicate_id": "R2",
+      "sample_name": "binary_TC0_OTC12_CTC48"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_0,12,48_2.jpg",
+      "relative_path": "binary/T=5_binary_0,12,48_2.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 0,
+      "otc_conc_uM": 12,
+      "ctc_conc_uM": 48,
+      "replicate_id": "R3",
+      "sample_name": "binary_TC0_OTC12_CTC48"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_0,18,42.jpg",
+      "relative_path": "binary/T=5_binary_0,18,42.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 0,
+      "otc_conc_uM": 18,
+      "ctc_conc_uM": 42,
+      "replicate_id": "R1",
+      "sample_name": "binary_TC0_OTC18_CTC42"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_0,18,42_1.jpg",
+      "relative_path": "binary/T=5_binary_0,18,42_1.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 0,
+      "otc_conc_uM": 18,
+      "ctc_conc_uM": 42,
+      "replicate_id": "R2",
+      "sample_name": "binary_TC0_OTC18_CTC42"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_0,18,42_2.jpg",
+      "relative_path": "binary/T=5_binary_0,18,42_2.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 0,
+      "otc_conc_uM": 18,
+      "ctc_conc_uM": 42,
+      "replicate_id": "R3",
+      "sample_name": "binary_TC0_OTC18_CTC42"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_0,30,30.jpg",
+      "relative_path": "binary/T=5_binary_0,30,30.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 0,
+      "otc_conc_uM": 30,
+      "ctc_conc_uM": 30,
+      "replicate_id": "R1",
+      "sample_name": "binary_TC0_OTC30_CTC30"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_0,30,30_1.jpg",
+      "relative_path": "binary/T=5_binary_0,30,30_1.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 0,
+      "otc_conc_uM": 30,
+      "ctc_conc_uM": 30,
+      "replicate_id": "R2",
+      "sample_name": "binary_TC0_OTC30_CTC30"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_0,30,30_2.jpg",
+      "relative_path": "binary/T=5_binary_0,30,30_2.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 0,
+      "otc_conc_uM": 30,
+      "ctc_conc_uM": 30,
+      "replicate_id": "R3",
+      "sample_name": "binary_TC0_OTC30_CTC30"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_0,42,18.jpg",
+      "relative_path": "binary/T=5_binary_0,42,18.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 0,
+      "otc_conc_uM": 42,
+      "ctc_conc_uM": 18,
+      "replicate_id": "R1",
+      "sample_name": "binary_TC0_OTC42_CTC18"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_0,42,18_1.jpg",
+      "relative_path": "binary/T=5_binary_0,42,18_1.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 0,
+      "otc_conc_uM": 42,
+      "ctc_conc_uM": 18,
+      "replicate_id": "R2",
+      "sample_name": "binary_TC0_OTC42_CTC18"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_0,42,18_2.jpg",
+      "relative_path": "binary/T=5_binary_0,42,18_2.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 0,
+      "otc_conc_uM": 42,
+      "ctc_conc_uM": 18,
+      "replicate_id": "R3",
+      "sample_name": "binary_TC0_OTC42_CTC18"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_0,48,12.jpg",
+      "relative_path": "binary/T=5_binary_0,48,12.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 0,
+      "otc_conc_uM": 48,
+      "ctc_conc_uM": 12,
+      "replicate_id": "R1",
+      "sample_name": "binary_TC0_OTC48_CTC12"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_0,48,12_1.jpg",
+      "relative_path": "binary/T=5_binary_0,48,12_1.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 0,
+      "otc_conc_uM": 48,
+      "ctc_conc_uM": 12,
+      "replicate_id": "R2",
+      "sample_name": "binary_TC0_OTC48_CTC12"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_0,48,12_2.jpg",
+      "relative_path": "binary/T=5_binary_0,48,12_2.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 0,
+      "otc_conc_uM": 48,
+      "ctc_conc_uM": 12,
+      "replicate_id": "R3",
+      "sample_name": "binary_TC0_OTC48_CTC12"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_0,54,6.jpg",
+      "relative_path": "binary/T=5_binary_0,54,6.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 0,
+      "otc_conc_uM": 54,
+      "ctc_conc_uM": 6,
+      "replicate_id": "R1",
+      "sample_name": "binary_TC0_OTC54_CTC6"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_0,54,6_1.jpg",
+      "relative_path": "binary/T=5_binary_0,54,6_1.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 0,
+      "otc_conc_uM": 54,
+      "ctc_conc_uM": 6,
+      "replicate_id": "R2",
+      "sample_name": "binary_TC0_OTC54_CTC6"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_0,54,6_2.jpg",
+      "relative_path": "binary/T=5_binary_0,54,6_2.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 0,
+      "otc_conc_uM": 54,
+      "ctc_conc_uM": 6,
+      "replicate_id": "R3",
+      "sample_name": "binary_TC0_OTC54_CTC6"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_0,6,54.jpg",
+      "relative_path": "binary/T=5_binary_0,6,54.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 0,
+      "otc_conc_uM": 6,
+      "ctc_conc_uM": 54,
+      "replicate_id": "R1",
+      "sample_name": "binary_TC0_OTC6_CTC54"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_0,6,54_1.jpg",
+      "relative_path": "binary/T=5_binary_0,6,54_1.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 0,
+      "otc_conc_uM": 6,
+      "ctc_conc_uM": 54,
+      "replicate_id": "R2",
+      "sample_name": "binary_TC0_OTC6_CTC54"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_0,6,54_2.jpg",
+      "relative_path": "binary/T=5_binary_0,6,54_2.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 0,
+      "otc_conc_uM": 6,
+      "ctc_conc_uM": 54,
+      "replicate_id": "R3",
+      "sample_name": "binary_TC0_OTC6_CTC54"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_12,0,48.jpg",
+      "relative_path": "binary/T=5_binary_12,0,48.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 12,
+      "otc_conc_uM": 0,
+      "ctc_conc_uM": 48,
+      "replicate_id": "R1",
+      "sample_name": "binary_TC12_OTC0_CTC48"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_12,0,48_1.jpg",
+      "relative_path": "binary/T=5_binary_12,0,48_1.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 12,
+      "otc_conc_uM": 0,
+      "ctc_conc_uM": 48,
+      "replicate_id": "R2",
+      "sample_name": "binary_TC12_OTC0_CTC48"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_12,0,48_2.jpg",
+      "relative_path": "binary/T=5_binary_12,0,48_2.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 12,
+      "otc_conc_uM": 0,
+      "ctc_conc_uM": 48,
+      "replicate_id": "R3",
+      "sample_name": "binary_TC12_OTC0_CTC48"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_12,48,0.jpg",
+      "relative_path": "binary/T=5_binary_12,48,0.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 12,
+      "otc_conc_uM": 48,
+      "ctc_conc_uM": 0,
+      "replicate_id": "R1",
+      "sample_name": "binary_TC12_OTC48_CTC0"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_12,48,0_1.jpg",
+      "relative_path": "binary/T=5_binary_12,48,0_1.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 12,
+      "otc_conc_uM": 48,
+      "ctc_conc_uM": 0,
+      "replicate_id": "R2",
+      "sample_name": "binary_TC12_OTC48_CTC0"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_12,48,0_2.jpg",
+      "relative_path": "binary/T=5_binary_12,48,0_2.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 12,
+      "otc_conc_uM": 48,
+      "ctc_conc_uM": 0,
+      "replicate_id": "R3",
+      "sample_name": "binary_TC12_OTC48_CTC0"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_18,0,42.jpg",
+      "relative_path": "binary/T=5_binary_18,0,42.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 18,
+      "otc_conc_uM": 0,
+      "ctc_conc_uM": 42,
+      "replicate_id": "R1",
+      "sample_name": "binary_TC18_OTC0_CTC42"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_18,0,42_1.jpg",
+      "relative_path": "binary/T=5_binary_18,0,42_1.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 18,
+      "otc_conc_uM": 0,
+      "ctc_conc_uM": 42,
+      "replicate_id": "R2",
+      "sample_name": "binary_TC18_OTC0_CTC42"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_18,0,42_2.jpg",
+      "relative_path": "binary/T=5_binary_18,0,42_2.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 18,
+      "otc_conc_uM": 0,
+      "ctc_conc_uM": 42,
+      "replicate_id": "R3",
+      "sample_name": "binary_TC18_OTC0_CTC42"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_18,42,0.jpg",
+      "relative_path": "binary/T=5_binary_18,42,0.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 18,
+      "otc_conc_uM": 42,
+      "ctc_conc_uM": 0,
+      "replicate_id": "R1",
+      "sample_name": "binary_TC18_OTC42_CTC0"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_18,42,0_1.jpg",
+      "relative_path": "binary/T=5_binary_18,42,0_1.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 18,
+      "otc_conc_uM": 42,
+      "ctc_conc_uM": 0,
+      "replicate_id": "R2",
+      "sample_name": "binary_TC18_OTC42_CTC0"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_18,42,0_2.jpg",
+      "relative_path": "binary/T=5_binary_18,42,0_2.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 18,
+      "otc_conc_uM": 42,
+      "ctc_conc_uM": 0,
+      "replicate_id": "R3",
+      "sample_name": "binary_TC18_OTC42_CTC0"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_30,0,30.jpg",
+      "relative_path": "binary/T=5_binary_30,0,30.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 30,
+      "otc_conc_uM": 0,
+      "ctc_conc_uM": 30,
+      "replicate_id": "R1",
+      "sample_name": "binary_TC30_OTC0_CTC30"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_30,0,30_1.jpg",
+      "relative_path": "binary/T=5_binary_30,0,30_1.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 30,
+      "otc_conc_uM": 0,
+      "ctc_conc_uM": 30,
+      "replicate_id": "R2",
+      "sample_name": "binary_TC30_OTC0_CTC30"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_30,0,30_2.jpg",
+      "relative_path": "binary/T=5_binary_30,0,30_2.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 30,
+      "otc_conc_uM": 0,
+      "ctc_conc_uM": 30,
+      "replicate_id": "R3",
+      "sample_name": "binary_TC30_OTC0_CTC30"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_30,30,0.jpg",
+      "relative_path": "binary/T=5_binary_30,30,0.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 30,
+      "otc_conc_uM": 30,
+      "ctc_conc_uM": 0,
+      "replicate_id": "R1",
+      "sample_name": "binary_TC30_OTC30_CTC0"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_30,30,0_1.jpg",
+      "relative_path": "binary/T=5_binary_30,30,0_1.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 30,
+      "otc_conc_uM": 30,
+      "ctc_conc_uM": 0,
+      "replicate_id": "R2",
+      "sample_name": "binary_TC30_OTC30_CTC0"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_30,30,0_2.jpg",
+      "relative_path": "binary/T=5_binary_30,30,0_2.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 30,
+      "otc_conc_uM": 30,
+      "ctc_conc_uM": 0,
+      "replicate_id": "R3",
+      "sample_name": "binary_TC30_OTC30_CTC0"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_42,0,18.jpg",
+      "relative_path": "binary/T=5_binary_42,0,18.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 42,
+      "otc_conc_uM": 0,
+      "ctc_conc_uM": 18,
+      "replicate_id": "R1",
+      "sample_name": "binary_TC42_OTC0_CTC18"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_42,0,18_1.jpg",
+      "relative_path": "binary/T=5_binary_42,0,18_1.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 42,
+      "otc_conc_uM": 0,
+      "ctc_conc_uM": 18,
+      "replicate_id": "R2",
+      "sample_name": "binary_TC42_OTC0_CTC18"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_42,0,18_2.jpg",
+      "relative_path": "binary/T=5_binary_42,0,18_2.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 42,
+      "otc_conc_uM": 0,
+      "ctc_conc_uM": 18,
+      "replicate_id": "R3",
+      "sample_name": "binary_TC42_OTC0_CTC18"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_42,18,0.jpg",
+      "relative_path": "binary/T=5_binary_42,18,0.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 42,
+      "otc_conc_uM": 18,
+      "ctc_conc_uM": 0,
+      "replicate_id": "R1",
+      "sample_name": "binary_TC42_OTC18_CTC0"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_42,18,0_1.jpg",
+      "relative_path": "binary/T=5_binary_42,18,0_1.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 42,
+      "otc_conc_uM": 18,
+      "ctc_conc_uM": 0,
+      "replicate_id": "R2",
+      "sample_name": "binary_TC42_OTC18_CTC0"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_42,18,0_2.jpg",
+      "relative_path": "binary/T=5_binary_42,18,0_2.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 42,
+      "otc_conc_uM": 18,
+      "ctc_conc_uM": 0,
+      "replicate_id": "R3",
+      "sample_name": "binary_TC42_OTC18_CTC0"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_48,0,12.jpg",
+      "relative_path": "binary/T=5_binary_48,0,12.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 48,
+      "otc_conc_uM": 0,
+      "ctc_conc_uM": 12,
+      "replicate_id": "R1",
+      "sample_name": "binary_TC48_OTC0_CTC12"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_48,0,12_1.jpg",
+      "relative_path": "binary/T=5_binary_48,0,12_1.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 48,
+      "otc_conc_uM": 0,
+      "ctc_conc_uM": 12,
+      "replicate_id": "R2",
+      "sample_name": "binary_TC48_OTC0_CTC12"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_48,0,12_2.jpg",
+      "relative_path": "binary/T=5_binary_48,0,12_2.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 48,
+      "otc_conc_uM": 0,
+      "ctc_conc_uM": 12,
+      "replicate_id": "R3",
+      "sample_name": "binary_TC48_OTC0_CTC12"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_48,12,0.jpg",
+      "relative_path": "binary/T=5_binary_48,12,0.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 48,
+      "otc_conc_uM": 12,
+      "ctc_conc_uM": 0,
+      "replicate_id": "R1",
+      "sample_name": "binary_TC48_OTC12_CTC0"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_48,12,0_1.jpg",
+      "relative_path": "binary/T=5_binary_48,12,0_1.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 48,
+      "otc_conc_uM": 12,
+      "ctc_conc_uM": 0,
+      "replicate_id": "R2",
+      "sample_name": "binary_TC48_OTC12_CTC0"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_48,12,0_2.jpg",
+      "relative_path": "binary/T=5_binary_48,12,0_2.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 48,
+      "otc_conc_uM": 12,
+      "ctc_conc_uM": 0,
+      "replicate_id": "R3",
+      "sample_name": "binary_TC48_OTC12_CTC0"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_54,0,6.jpg",
+      "relative_path": "binary/T=5_binary_54,0,6.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 54,
+      "otc_conc_uM": 0,
+      "ctc_conc_uM": 6,
+      "replicate_id": "R1",
+      "sample_name": "binary_TC54_OTC0_CTC6"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_54,0,6_1.jpg",
+      "relative_path": "binary/T=5_binary_54,0,6_1.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 54,
+      "otc_conc_uM": 0,
+      "ctc_conc_uM": 6,
+      "replicate_id": "R2",
+      "sample_name": "binary_TC54_OTC0_CTC6"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_54,0,6_2.jpg",
+      "relative_path": "binary/T=5_binary_54,0,6_2.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 54,
+      "otc_conc_uM": 0,
+      "ctc_conc_uM": 6,
+      "replicate_id": "R3",
+      "sample_name": "binary_TC54_OTC0_CTC6"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_54,6,0.jpg",
+      "relative_path": "binary/T=5_binary_54,6,0.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 54,
+      "otc_conc_uM": 6,
+      "ctc_conc_uM": 0,
+      "replicate_id": "R1",
+      "sample_name": "binary_TC54_OTC6_CTC0"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_54,6,0_1.jpg",
+      "relative_path": "binary/T=5_binary_54,6,0_1.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 54,
+      "otc_conc_uM": 6,
+      "ctc_conc_uM": 0,
+      "replicate_id": "R2",
+      "sample_name": "binary_TC54_OTC6_CTC0"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_54,6,0_2.jpg",
+      "relative_path": "binary/T=5_binary_54,6,0_2.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 54,
+      "otc_conc_uM": 6,
+      "ctc_conc_uM": 0,
+      "replicate_id": "R3",
+      "sample_name": "binary_TC54_OTC6_CTC0"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_6,0,54.jpg",
+      "relative_path": "binary/T=5_binary_6,0,54.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 6,
+      "otc_conc_uM": 0,
+      "ctc_conc_uM": 54,
+      "replicate_id": "R1",
+      "sample_name": "binary_TC6_OTC0_CTC54"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_6,0,54_1.jpg",
+      "relative_path": "binary/T=5_binary_6,0,54_1.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 6,
+      "otc_conc_uM": 0,
+      "ctc_conc_uM": 54,
+      "replicate_id": "R2",
+      "sample_name": "binary_TC6_OTC0_CTC54"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_6,0,54_2.jpg",
+      "relative_path": "binary/T=5_binary_6,0,54_2.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 6,
+      "otc_conc_uM": 0,
+      "ctc_conc_uM": 54,
+      "replicate_id": "R3",
+      "sample_name": "binary_TC6_OTC0_CTC54"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_6,54,0.jpg",
+      "relative_path": "binary/T=5_binary_6,54,0.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 6,
+      "otc_conc_uM": 54,
+      "ctc_conc_uM": 0,
+      "replicate_id": "R1",
+      "sample_name": "binary_TC6_OTC54_CTC0"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_6,54,0_1.jpg",
+      "relative_path": "binary/T=5_binary_6,54,0_1.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 6,
+      "otc_conc_uM": 54,
+      "ctc_conc_uM": 0,
+      "replicate_id": "R2",
+      "sample_name": "binary_TC6_OTC54_CTC0"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\binary\\T=5_binary_6,54,0_2.jpg",
+      "relative_path": "binary/T=5_binary_6,54,0_2.jpg",
+      "buffer_name": "T=5",
+      "group_type": "binary",
+      "tc_conc_uM": 6,
+      "otc_conc_uM": 54,
+      "ctc_conc_uM": 0,
+      "replicate_id": "R3",
+      "sample_name": "binary_TC6_OTC54_CTC0"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\blank\\T=5_blank.jpg",
+      "relative_path": "blank/T=5_blank.jpg",
+      "buffer_name": "T=5",
+      "group_type": "blank",
+      "tc_conc_uM": 0,
+      "otc_conc_uM": 0,
+      "ctc_conc_uM": 0,
+      "replicate_id": "R1",
+      "sample_name": "blank_TC0_OTC0_CTC0"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\blank\\T=5_blank_1.jpg",
+      "relative_path": "blank/T=5_blank_1.jpg",
+      "buffer_name": "T=5",
+      "group_type": "blank",
+      "tc_conc_uM": 0,
+      "otc_conc_uM": 0,
+      "ctc_conc_uM": 0,
+      "replicate_id": "R2",
+      "sample_name": "blank_TC0_OTC0_CTC0"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\blank\\T=5_blank_2.jpg",
+      "relative_path": "blank/T=5_blank_2.jpg",
+      "buffer_name": "T=5",
+      "group_type": "blank",
+      "tc_conc_uM": 0,
+      "otc_conc_uM": 0,
+      "ctc_conc_uM": 0,
+      "replicate_id": "R3",
+      "sample_name": "blank_TC0_OTC0_CTC0"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\single\\T=5_single_0,0,60.jpg",
+      "relative_path": "single/T=5_single_0,0,60.jpg",
+      "buffer_name": "T=5",
+      "group_type": "single",
+      "tc_conc_uM": 0,
+      "otc_conc_uM": 0,
+      "ctc_conc_uM": 60,
+      "replicate_id": "R1",
+      "sample_name": "single_TC0_OTC0_CTC60"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\single\\T=5_single_0,0,60_1.jpg",
+      "relative_path": "single/T=5_single_0,0,60_1.jpg",
+      "buffer_name": "T=5",
+      "group_type": "single",
+      "tc_conc_uM": 0,
+      "otc_conc_uM": 0,
+      "ctc_conc_uM": 60,
+      "replicate_id": "R2",
+      "sample_name": "single_TC0_OTC0_CTC60"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\single\\T=5_single_0,0,60_2.jpg",
+      "relative_path": "single/T=5_single_0,0,60_2.jpg",
+      "buffer_name": "T=5",
+      "group_type": "single",
+      "tc_conc_uM": 0,
+      "otc_conc_uM": 0,
+      "ctc_conc_uM": 60,
+      "replicate_id": "R3",
+      "sample_name": "single_TC0_OTC0_CTC60"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\single\\T=5_single_0,60,0.jpg",
+      "relative_path": "single/T=5_single_0,60,0.jpg",
+      "buffer_name": "T=5",
+      "group_type": "single",
+      "tc_conc_uM": 0,
+      "otc_conc_uM": 60,
+      "ctc_conc_uM": 0,
+      "replicate_id": "R1",
+      "sample_name": "single_TC0_OTC60_CTC0"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\single\\T=5_single_0,60,0_1.jpg",
+      "relative_path": "single/T=5_single_0,60,0_1.jpg",
+      "buffer_name": "T=5",
+      "group_type": "single",
+      "tc_conc_uM": 0,
+      "otc_conc_uM": 60,
+      "ctc_conc_uM": 0,
+      "replicate_id": "R2",
+      "sample_name": "single_TC0_OTC60_CTC0"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\single\\T=5_single_0,60,0_2.jpg",
+      "relative_path": "single/T=5_single_0,60,0_2.jpg",
+      "buffer_name": "T=5",
+      "group_type": "single",
+      "tc_conc_uM": 0,
+      "otc_conc_uM": 60,
+      "ctc_conc_uM": 0,
+      "replicate_id": "R3",
+      "sample_name": "single_TC0_OTC60_CTC0"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\single\\T=5_single_60,0,0.jpg",
+      "relative_path": "single/T=5_single_60,0,0.jpg",
+      "buffer_name": "T=5",
+      "group_type": "single",
+      "tc_conc_uM": 60,
+      "otc_conc_uM": 0,
+      "ctc_conc_uM": 0,
+      "replicate_id": "R1",
+      "sample_name": "single_TC60_OTC0_CTC0"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\single\\T=5_single_60,0,0_1.jpg",
+      "relative_path": "single/T=5_single_60,0,0_1.jpg",
+      "buffer_name": "T=5",
+      "group_type": "single",
+      "tc_conc_uM": 60,
+      "otc_conc_uM": 0,
+      "ctc_conc_uM": 0,
+      "replicate_id": "R2",
+      "sample_name": "single_TC60_OTC0_CTC0"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\single\\T=5_single_60,0,0_2.jpg",
+      "relative_path": "single/T=5_single_60,0,0_2.jpg",
+      "buffer_name": "T=5",
+      "group_type": "single",
+      "tc_conc_uM": 60,
+      "otc_conc_uM": 0,
+      "ctc_conc_uM": 0,
+      "replicate_id": "R3",
+      "sample_name": "single_TC60_OTC0_CTC0"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\ternary\\T=5_ternary_18,36,6.jpg",
+      "relative_path": "ternary/T=5_ternary_18,36,6.jpg",
+      "buffer_name": "T=5",
+      "group_type": "ternary",
+      "tc_conc_uM": 18,
+      "otc_conc_uM": 36,
+      "ctc_conc_uM": 6,
+      "replicate_id": "R1",
+      "sample_name": "ternary_TC18_OTC36_CTC6"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\ternary\\T=5_ternary_18,36,6_1.jpg",
+      "relative_path": "ternary/T=5_ternary_18,36,6_1.jpg",
+      "buffer_name": "T=5",
+      "group_type": "ternary",
+      "tc_conc_uM": 18,
+      "otc_conc_uM": 36,
+      "ctc_conc_uM": 6,
+      "replicate_id": "R2",
+      "sample_name": "ternary_TC18_OTC36_CTC6"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\ternary\\T=5_ternary_18,36,6_2.jpg",
+      "relative_path": "ternary/T=5_ternary_18,36,6_2.jpg",
+      "buffer_name": "T=5",
+      "group_type": "ternary",
+      "tc_conc_uM": 18,
+      "otc_conc_uM": 36,
+      "ctc_conc_uM": 6,
+      "replicate_id": "R3",
+      "sample_name": "ternary_TC18_OTC36_CTC6"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\ternary\\T=5_ternary_18,6,36.jpg",
+      "relative_path": "ternary/T=5_ternary_18,6,36.jpg",
+      "buffer_name": "T=5",
+      "group_type": "ternary",
+      "tc_conc_uM": 18,
+      "otc_conc_uM": 6,
+      "ctc_conc_uM": 36,
+      "replicate_id": "R1",
+      "sample_name": "ternary_TC18_OTC6_CTC36"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\ternary\\T=5_ternary_18,6,36_1.jpg",
+      "relative_path": "ternary/T=5_ternary_18,6,36_1.jpg",
+      "buffer_name": "T=5",
+      "group_type": "ternary",
+      "tc_conc_uM": 18,
+      "otc_conc_uM": 6,
+      "ctc_conc_uM": 36,
+      "replicate_id": "R2",
+      "sample_name": "ternary_TC18_OTC6_CTC36"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\ternary\\T=5_ternary_18,6,36_2.jpg",
+      "relative_path": "ternary/T=5_ternary_18,6,36_2.jpg",
+      "buffer_name": "T=5",
+      "group_type": "ternary",
+      "tc_conc_uM": 18,
+      "otc_conc_uM": 6,
+      "ctc_conc_uM": 36,
+      "replicate_id": "R3",
+      "sample_name": "ternary_TC18_OTC6_CTC36"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\ternary\\T=5_ternary_20,20,20.jpg",
+      "relative_path": "ternary/T=5_ternary_20,20,20.jpg",
+      "buffer_name": "T=5",
+      "group_type": "ternary",
+      "tc_conc_uM": 20,
+      "otc_conc_uM": 20,
+      "ctc_conc_uM": 20,
+      "replicate_id": "R1",
+      "sample_name": "ternary_TC20_OTC20_CTC20"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\ternary\\T=5_ternary_20,20,20_1.jpg",
+      "relative_path": "ternary/T=5_ternary_20,20,20_1.jpg",
+      "buffer_name": "T=5",
+      "group_type": "ternary",
+      "tc_conc_uM": 20,
+      "otc_conc_uM": 20,
+      "ctc_conc_uM": 20,
+      "replicate_id": "R2",
+      "sample_name": "ternary_TC20_OTC20_CTC20"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\ternary\\T=5_ternary_20,20,20_2.jpg",
+      "relative_path": "ternary/T=5_ternary_20,20,20_2.jpg",
+      "buffer_name": "T=5",
+      "group_type": "ternary",
+      "tc_conc_uM": 20,
+      "otc_conc_uM": 20,
+      "ctc_conc_uM": 20,
+      "replicate_id": "R3",
+      "sample_name": "ternary_TC20_OTC20_CTC20"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\ternary\\T=5_ternary_36,18,6.jpg",
+      "relative_path": "ternary/T=5_ternary_36,18,6.jpg",
+      "buffer_name": "T=5",
+      "group_type": "ternary",
+      "tc_conc_uM": 36,
+      "otc_conc_uM": 18,
+      "ctc_conc_uM": 6,
+      "replicate_id": "R1",
+      "sample_name": "ternary_TC36_OTC18_CTC6"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\ternary\\T=5_ternary_36,18,6_1.jpg",
+      "relative_path": "ternary/T=5_ternary_36,18,6_1.jpg",
+      "buffer_name": "T=5",
+      "group_type": "ternary",
+      "tc_conc_uM": 36,
+      "otc_conc_uM": 18,
+      "ctc_conc_uM": 6,
+      "replicate_id": "R2",
+      "sample_name": "ternary_TC36_OTC18_CTC6"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\ternary\\T=5_ternary_36,18,6_2.jpg",
+      "relative_path": "ternary/T=5_ternary_36,18,6_2.jpg",
+      "buffer_name": "T=5",
+      "group_type": "ternary",
+      "tc_conc_uM": 36,
+      "otc_conc_uM": 18,
+      "ctc_conc_uM": 6,
+      "replicate_id": "R3",
+      "sample_name": "ternary_TC36_OTC18_CTC6"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\ternary\\T=5_ternary_36,6,18.jpg",
+      "relative_path": "ternary/T=5_ternary_36,6,18.jpg",
+      "buffer_name": "T=5",
+      "group_type": "ternary",
+      "tc_conc_uM": 36,
+      "otc_conc_uM": 6,
+      "ctc_conc_uM": 18,
+      "replicate_id": "R1",
+      "sample_name": "ternary_TC36_OTC6_CTC18"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\ternary\\T=5_ternary_36,6,18_1.jpg",
+      "relative_path": "ternary/T=5_ternary_36,6,18_1.jpg",
+      "buffer_name": "T=5",
+      "group_type": "ternary",
+      "tc_conc_uM": 36,
+      "otc_conc_uM": 6,
+      "ctc_conc_uM": 18,
+      "replicate_id": "R2",
+      "sample_name": "ternary_TC36_OTC6_CTC18"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\ternary\\T=5_ternary_36,6,18_2.jpg",
+      "relative_path": "ternary/T=5_ternary_36,6,18_2.jpg",
+      "buffer_name": "T=5",
+      "group_type": "ternary",
+      "tc_conc_uM": 36,
+      "otc_conc_uM": 6,
+      "ctc_conc_uM": 18,
+      "replicate_id": "R3",
+      "sample_name": "ternary_TC36_OTC6_CTC18"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\ternary\\T=5_ternary_48,6,6.jpg",
+      "relative_path": "ternary/T=5_ternary_48,6,6.jpg",
+      "buffer_name": "T=5",
+      "group_type": "ternary",
+      "tc_conc_uM": 48,
+      "otc_conc_uM": 6,
+      "ctc_conc_uM": 6,
+      "replicate_id": "R1",
+      "sample_name": "ternary_TC48_OTC6_CTC6"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\ternary\\T=5_ternary_48,6,6_1.jpg",
+      "relative_path": "ternary/T=5_ternary_48,6,6_1.jpg",
+      "buffer_name": "T=5",
+      "group_type": "ternary",
+      "tc_conc_uM": 48,
+      "otc_conc_uM": 6,
+      "ctc_conc_uM": 6,
+      "replicate_id": "R2",
+      "sample_name": "ternary_TC48_OTC6_CTC6"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\ternary\\T=5_ternary_48,6,6_2.jpg",
+      "relative_path": "ternary/T=5_ternary_48,6,6_2.jpg",
+      "buffer_name": "T=5",
+      "group_type": "ternary",
+      "tc_conc_uM": 48,
+      "otc_conc_uM": 6,
+      "ctc_conc_uM": 6,
+      "replicate_id": "R3",
+      "sample_name": "ternary_TC48_OTC6_CTC6"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\ternary\\T=5_ternary_6,18,36.jpg",
+      "relative_path": "ternary/T=5_ternary_6,18,36.jpg",
+      "buffer_name": "T=5",
+      "group_type": "ternary",
+      "tc_conc_uM": 6,
+      "otc_conc_uM": 18,
+      "ctc_conc_uM": 36,
+      "replicate_id": "R1",
+      "sample_name": "ternary_TC6_OTC18_CTC36"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\ternary\\T=5_ternary_6,18,36_1.jpg",
+      "relative_path": "ternary/T=5_ternary_6,18,36_1.jpg",
+      "buffer_name": "T=5",
+      "group_type": "ternary",
+      "tc_conc_uM": 6,
+      "otc_conc_uM": 18,
+      "ctc_conc_uM": 36,
+      "replicate_id": "R2",
+      "sample_name": "ternary_TC6_OTC18_CTC36"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\ternary\\T=5_ternary_6,18,36_2.jpg",
+      "relative_path": "ternary/T=5_ternary_6,18,36_2.jpg",
+      "buffer_name": "T=5",
+      "group_type": "ternary",
+      "tc_conc_uM": 6,
+      "otc_conc_uM": 18,
+      "ctc_conc_uM": 36,
+      "replicate_id": "R3",
+      "sample_name": "ternary_TC6_OTC18_CTC36"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\ternary\\T=5_ternary_6,36,18.jpg",
+      "relative_path": "ternary/T=5_ternary_6,36,18.jpg",
+      "buffer_name": "T=5",
+      "group_type": "ternary",
+      "tc_conc_uM": 6,
+      "otc_conc_uM": 36,
+      "ctc_conc_uM": 18,
+      "replicate_id": "R1",
+      "sample_name": "ternary_TC6_OTC36_CTC18"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\ternary\\T=5_ternary_6,36,18_1.jpg",
+      "relative_path": "ternary/T=5_ternary_6,36,18_1.jpg",
+      "buffer_name": "T=5",
+      "group_type": "ternary",
+      "tc_conc_uM": 6,
+      "otc_conc_uM": 36,
+      "ctc_conc_uM": 18,
+      "replicate_id": "R2",
+      "sample_name": "ternary_TC6_OTC36_CTC18"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\ternary\\T=5_ternary_6,36,18_2.jpg",
+      "relative_path": "ternary/T=5_ternary_6,36,18_2.jpg",
+      "buffer_name": "T=5",
+      "group_type": "ternary",
+      "tc_conc_uM": 6,
+      "otc_conc_uM": 36,
+      "ctc_conc_uM": 18,
+      "replicate_id": "R3",
+      "sample_name": "ternary_TC6_OTC36_CTC18"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\ternary\\T=5_ternary_6,48,6.jpg",
+      "relative_path": "ternary/T=5_ternary_6,48,6.jpg",
+      "buffer_name": "T=5",
+      "group_type": "ternary",
+      "tc_conc_uM": 6,
+      "otc_conc_uM": 48,
+      "ctc_conc_uM": 6,
+      "replicate_id": "R1",
+      "sample_name": "ternary_TC6_OTC48_CTC6"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\ternary\\T=5_ternary_6,48,6_1.jpg",
+      "relative_path": "ternary/T=5_ternary_6,48,6_1.jpg",
+      "buffer_name": "T=5",
+      "group_type": "ternary",
+      "tc_conc_uM": 6,
+      "otc_conc_uM": 48,
+      "ctc_conc_uM": 6,
+      "replicate_id": "R2",
+      "sample_name": "ternary_TC6_OTC48_CTC6"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\ternary\\T=5_ternary_6,48,6_2.jpg",
+      "relative_path": "ternary/T=5_ternary_6,48,6_2.jpg",
+      "buffer_name": "T=5",
+      "group_type": "ternary",
+      "tc_conc_uM": 6,
+      "otc_conc_uM": 48,
+      "ctc_conc_uM": 6,
+      "replicate_id": "R3",
+      "sample_name": "ternary_TC6_OTC48_CTC6"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\ternary\\T=5_ternary_6,6,48.jpg",
+      "relative_path": "ternary/T=5_ternary_6,6,48.jpg",
+      "buffer_name": "T=5",
+      "group_type": "ternary",
+      "tc_conc_uM": 6,
+      "otc_conc_uM": 6,
+      "ctc_conc_uM": 48,
+      "replicate_id": "R1",
+      "sample_name": "ternary_TC6_OTC6_CTC48"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\ternary\\T=5_ternary_6,6,48_1.jpg",
+      "relative_path": "ternary/T=5_ternary_6,6,48_1.jpg",
+      "buffer_name": "T=5",
+      "group_type": "ternary",
+      "tc_conc_uM": 6,
+      "otc_conc_uM": 6,
+      "ctc_conc_uM": 48,
+      "replicate_id": "R2",
+      "sample_name": "ternary_TC6_OTC6_CTC48"
+    },
+    {
+      "image_path": "D:\\Desktop\\Distinguish_TC\\Photo\\ternary\\T=5_ternary_6,6,48_2.jpg",
+      "relative_path": "ternary/T=5_ternary_6,6,48_2.jpg",
+      "buffer_name": "T=5",
+      "group_type": "ternary",
+      "tc_conc_uM": 6,
+      "otc_conc_uM": 6,
+      "ctc_conc_uM": 48,
+      "replicate_id": "R3",
+      "sample_name": "ternary_TC6_OTC6_CTC48"
+    }
+  ],
+  "crops": [
+    {
+      "image_relative_path": "binary/T=5_binary_0,12,48.jpg",
+      "auto_rect": {
+        "x": 1375,
+        "y": 1965,
+        "w": 378,
+        "h": 777
+      },
+      "final_rect": {
+        "x": 1375,
+        "y": 1965,
+        "w": 378,
+        "h": 777
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_0,12,48.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_0,12,48_1.jpg",
+      "auto_rect": {
+        "x": 1393,
+        "y": 1962,
+        "w": 368,
+        "h": 775
+      },
+      "final_rect": {
+        "x": 1393,
+        "y": 1962,
+        "w": 368,
+        "h": 775
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_0,12,48_1.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_0,12,48_2.jpg",
+      "auto_rect": {
+        "x": 1333,
+        "y": 1977,
+        "w": 373,
+        "h": 777
+      },
+      "final_rect": {
+        "x": 1333,
+        "y": 1977,
+        "w": 373,
+        "h": 777
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_0,12,48_2.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_0,18,42.jpg",
+      "auto_rect": {
+        "x": 1296,
+        "y": 1949,
+        "w": 372,
+        "h": 781
+      },
+      "final_rect": {
+        "x": 1296,
+        "y": 1949,
+        "w": 372,
+        "h": 781
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_0,18,42.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_0,18,42_1.jpg",
+      "auto_rect": {
+        "x": 1297,
+        "y": 1955,
+        "w": 372,
+        "h": 781
+      },
+      "final_rect": {
+        "x": 1297,
+        "y": 1955,
+        "w": 372,
+        "h": 781
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_0,18,42_1.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_0,18,42_2.jpg",
+      "auto_rect": {
+        "x": 1320,
+        "y": 1945,
+        "w": 373,
+        "h": 780
+      },
+      "final_rect": {
+        "x": 1320,
+        "y": 1945,
+        "w": 373,
+        "h": 780
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_0,18,42_2.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_0,30,30.jpg",
+      "auto_rect": {
+        "x": 1372,
+        "y": 1979,
+        "w": 380,
+        "h": 781
+      },
+      "final_rect": {
+        "x": 1372,
+        "y": 1979,
+        "w": 380,
+        "h": 781
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_0,30,30.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_0,30,30_1.jpg",
+      "auto_rect": {
+        "x": 1332,
+        "y": 1976,
+        "w": 377,
+        "h": 781
+      },
+      "final_rect": {
+        "x": 1332,
+        "y": 1976,
+        "w": 377,
+        "h": 781
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_0,30,30_1.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_0,30,30_2.jpg",
+      "auto_rect": {
+        "x": 1323,
+        "y": 1957,
+        "w": 375,
+        "h": 782
+      },
+      "final_rect": {
+        "x": 1323,
+        "y": 1957,
+        "w": 375,
+        "h": 782
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_0,30,30_2.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_0,42,18.jpg",
+      "auto_rect": {
+        "x": 1327,
+        "y": 1943,
+        "w": 378,
+        "h": 780
+      },
+      "final_rect": {
+        "x": 1327,
+        "y": 1943,
+        "w": 378,
+        "h": 780
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_0,42,18.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_0,42,18_1.jpg",
+      "auto_rect": {
+        "x": 1325,
+        "y": 1941,
+        "w": 378,
+        "h": 778
+      },
+      "final_rect": {
+        "x": 1325,
+        "y": 1941,
+        "w": 378,
+        "h": 778
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_0,42,18_1.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_0,42,18_2.jpg",
+      "auto_rect": {
+        "x": 1339,
+        "y": 1960,
+        "w": 377,
+        "h": 768
+      },
+      "final_rect": {
+        "x": 1339,
+        "y": 1960,
+        "w": 377,
+        "h": 768
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_0,42,18_2.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_0,48,12.jpg",
+      "auto_rect": {
+        "x": 1333,
+        "y": 1963,
+        "w": 378,
+        "h": 776
+      },
+      "final_rect": {
+        "x": 1333,
+        "y": 1963,
+        "w": 378,
+        "h": 776
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_0,48,12.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_0,48,12_1.jpg",
+      "auto_rect": {
+        "x": 1328,
+        "y": 1951,
+        "w": 379,
+        "h": 776
+      },
+      "final_rect": {
+        "x": 1328,
+        "y": 1951,
+        "w": 379,
+        "h": 776
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_0,48,12_1.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_0,48,12_2.jpg",
+      "auto_rect": {
+        "x": 1362,
+        "y": 1967,
+        "w": 378,
+        "h": 772
+      },
+      "final_rect": {
+        "x": 1362,
+        "y": 1967,
+        "w": 378,
+        "h": 772
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_0,48,12_2.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_0,54,6.jpg",
+      "auto_rect": {
+        "x": 1296,
+        "y": 1974,
+        "w": 370,
+        "h": 773
+      },
+      "final_rect": {
+        "x": 1296,
+        "y": 1974,
+        "w": 370,
+        "h": 773
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_0,54,6.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_0,54,6_1.jpg",
+      "auto_rect": {
+        "x": 1332,
+        "y": 1979,
+        "w": 373,
+        "h": 773
+      },
+      "final_rect": {
+        "x": 1332,
+        "y": 1979,
+        "w": 373,
+        "h": 773
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_0,54,6_1.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_0,54,6_2.jpg",
+      "auto_rect": {
+        "x": 1362,
+        "y": 1972,
+        "w": 371,
+        "h": 773
+      },
+      "final_rect": {
+        "x": 1362,
+        "y": 1972,
+        "w": 371,
+        "h": 773
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_0,54,6_2.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_0,6,54.jpg",
+      "auto_rect": {
+        "x": 1327,
+        "y": 1973,
+        "w": 377,
+        "h": 776
+      },
+      "final_rect": {
+        "x": 1327,
+        "y": 1973,
+        "w": 377,
+        "h": 776
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_0,6,54.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_0,6,54_1.jpg",
+      "auto_rect": {
+        "x": 1326,
+        "y": 1973,
+        "w": 377,
+        "h": 772
+      },
+      "final_rect": {
+        "x": 1326,
+        "y": 1973,
+        "w": 377,
+        "h": 772
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_0,6,54_1.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_0,6,54_2.jpg",
+      "auto_rect": {
+        "x": 1328,
+        "y": 1963,
+        "w": 377,
+        "h": 776
+      },
+      "final_rect": {
+        "x": 1328,
+        "y": 1963,
+        "w": 377,
+        "h": 776
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_0,6,54_2.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_12,0,48.jpg",
+      "auto_rect": {
+        "x": 1277,
+        "y": 1972,
+        "w": 374,
+        "h": 766
+      },
+      "final_rect": {
+        "x": 1277,
+        "y": 1972,
+        "w": 374,
+        "h": 766
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_12,0,48.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_12,0,48_1.jpg",
+      "auto_rect": {
+        "x": 1317,
+        "y": 1958,
+        "w": 376,
+        "h": 766
+      },
+      "final_rect": {
+        "x": 1317,
+        "y": 1958,
+        "w": 376,
+        "h": 766
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_12,0,48_1.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_12,0,48_2.jpg",
+      "auto_rect": {
+        "x": 1308,
+        "y": 1974,
+        "w": 375,
+        "h": 765
+      },
+      "final_rect": {
+        "x": 1308,
+        "y": 1974,
+        "w": 375,
+        "h": 765
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_12,0,48_2.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_12,48,0.jpg",
+      "auto_rect": {
+        "x": 1330,
+        "y": 1910,
+        "w": 384,
+        "h": 771
+      },
+      "final_rect": {
+        "x": 1330,
+        "y": 1910,
+        "w": 384,
+        "h": 771
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_12,48,0.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_12,48,0_1.jpg",
+      "auto_rect": {
+        "x": 1330,
+        "y": 1943,
+        "w": 382,
+        "h": 778
+      },
+      "final_rect": {
+        "x": 1330,
+        "y": 1943,
+        "w": 382,
+        "h": 778
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_12,48,0_1.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_12,48,0_2.jpg",
+      "auto_rect": {
+        "x": 1319,
+        "y": 1975,
+        "w": 381,
+        "h": 767
+      },
+      "final_rect": {
+        "x": 1319,
+        "y": 1975,
+        "w": 381,
+        "h": 767
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_12,48,0_2.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_18,0,42.jpg",
+      "auto_rect": {
+        "x": 1306,
+        "y": 1979,
+        "w": 371,
+        "h": 765
+      },
+      "final_rect": {
+        "x": 1306,
+        "y": 1979,
+        "w": 371,
+        "h": 765
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_18,0,42.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_18,0,42_1.jpg",
+      "auto_rect": {
+        "x": 1320,
+        "y": 1975,
+        "w": 366,
+        "h": 764
+      },
+      "final_rect": {
+        "x": 1320,
+        "y": 1975,
+        "w": 366,
+        "h": 764
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_18,0,42_1.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_18,0,42_2.jpg",
+      "auto_rect": {
+        "x": 1345,
+        "y": 1961,
+        "w": 367,
+        "h": 764
+      },
+      "final_rect": {
+        "x": 1345,
+        "y": 1961,
+        "w": 367,
+        "h": 764
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_18,0,42_2.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_18,42,0.jpg",
+      "auto_rect": {
+        "x": 1356,
+        "y": 1979,
+        "w": 378,
+        "h": 765
+      },
+      "final_rect": {
+        "x": 1356,
+        "y": 1979,
+        "w": 378,
+        "h": 765
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_18,42,0.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_18,42,0_1.jpg",
+      "auto_rect": {
+        "x": 1349,
+        "y": 2018,
+        "w": 379,
+        "h": 728
+      },
+      "final_rect": {
+        "x": 1349,
+        "y": 2018,
+        "w": 379,
+        "h": 728
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_18,42,0_1.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_18,42,0_2.jpg",
+      "auto_rect": {
+        "x": 1351,
+        "y": 1953,
+        "w": 378,
+        "h": 766
+      },
+      "final_rect": {
+        "x": 1351,
+        "y": 1953,
+        "w": 378,
+        "h": 766
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_18,42,0_2.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_30,0,30.jpg",
+      "auto_rect": {
+        "x": 1282,
+        "y": 1989,
+        "w": 378,
+        "h": 775
+      },
+      "final_rect": {
+        "x": 1282,
+        "y": 1989,
+        "w": 378,
+        "h": 775
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_30,0,30.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_30,0,30_1.jpg",
+      "auto_rect": {
+        "x": 1272,
+        "y": 1970,
+        "w": 364,
+        "h": 772
+      },
+      "final_rect": {
+        "x": 1272,
+        "y": 1970,
+        "w": 364,
+        "h": 772
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_30,0,30_1.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_30,0,30_2.jpg",
+      "auto_rect": {
+        "x": 1340,
+        "y": 1955,
+        "w": 380,
+        "h": 781
+      },
+      "final_rect": {
+        "x": 1340,
+        "y": 1955,
+        "w": 380,
+        "h": 781
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_30,0,30_2.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_30,30,0.jpg",
+      "auto_rect": {
+        "x": 1320,
+        "y": 1941,
+        "w": 371,
+        "h": 766
+      },
+      "final_rect": {
+        "x": 1320,
+        "y": 1941,
+        "w": 371,
+        "h": 766
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_30,30,0.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_30,30,0_1.jpg",
+      "auto_rect": {
+        "x": 1279,
+        "y": 1976,
+        "w": 369,
+        "h": 745
+      },
+      "final_rect": {
+        "x": 1279,
+        "y": 1976,
+        "w": 369,
+        "h": 745
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_30,30,0_1.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_30,30,0_2.jpg",
+      "auto_rect": {
+        "x": 1354,
+        "y": 1955,
+        "w": 365,
+        "h": 764
+      },
+      "final_rect": {
+        "x": 1354,
+        "y": 1955,
+        "w": 365,
+        "h": 764
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_30,30,0_2.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_42,0,18.jpg",
+      "auto_rect": {
+        "x": 1334,
+        "y": 1966,
+        "w": 376,
+        "h": 772
+      },
+      "final_rect": {
+        "x": 1334,
+        "y": 1966,
+        "w": 376,
+        "h": 772
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_42,0,18.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_42,0,18_1.jpg",
+      "auto_rect": {
+        "x": 1333,
+        "y": 1975,
+        "w": 375,
+        "h": 771
+      },
+      "final_rect": {
+        "x": 1333,
+        "y": 1975,
+        "w": 375,
+        "h": 771
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_42,0,18_1.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_42,0,18_2.jpg",
+      "auto_rect": {
+        "x": 1372,
+        "y": 1974,
+        "w": 377,
+        "h": 769
+      },
+      "final_rect": {
+        "x": 1372,
+        "y": 1974,
+        "w": 377,
+        "h": 769
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_42,0,18_2.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_42,18,0.jpg",
+      "auto_rect": {
+        "x": 1329,
+        "y": 1997,
+        "w": 369,
+        "h": 764
+      },
+      "final_rect": {
+        "x": 1329,
+        "y": 1997,
+        "w": 369,
+        "h": 764
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_42,18,0.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_42,18,0_1.jpg",
+      "auto_rect": {
+        "x": 1336,
+        "y": 1984,
+        "w": 368,
+        "h": 762
+      },
+      "final_rect": {
+        "x": 1336,
+        "y": 1984,
+        "w": 368,
+        "h": 762
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_42,18,0_1.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_42,18,0_2.jpg",
+      "auto_rect": {
+        "x": 1403,
+        "y": 1978,
+        "w": 362,
+        "h": 762
+      },
+      "final_rect": {
+        "x": 1403,
+        "y": 1978,
+        "w": 362,
+        "h": 762
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_42,18,0_2.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_48,0,12.jpg",
+      "auto_rect": {
+        "x": 1322,
+        "y": 1966,
+        "w": 375,
+        "h": 773
+      },
+      "final_rect": {
+        "x": 1322,
+        "y": 1966,
+        "w": 375,
+        "h": 773
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_48,0,12.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_48,0,12_1.jpg",
+      "auto_rect": {
+        "x": 1294,
+        "y": 1960,
+        "w": 374,
+        "h": 773
+      },
+      "final_rect": {
+        "x": 1294,
+        "y": 1960,
+        "w": 374,
+        "h": 773
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_48,0,12_1.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_48,0,12_2.jpg",
+      "auto_rect": {
+        "x": 1360,
+        "y": 1962,
+        "w": 376,
+        "h": 773
+      },
+      "final_rect": {
+        "x": 1360,
+        "y": 1962,
+        "w": 376,
+        "h": 773
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_48,0,12_2.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_48,12,0.jpg",
+      "auto_rect": {
+        "x": 1347,
+        "y": 1987,
+        "w": 377,
+        "h": 774
+      },
+      "final_rect": {
+        "x": 1347,
+        "y": 1987,
+        "w": 377,
+        "h": 774
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_48,12,0.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_48,12,0_1.jpg",
+      "auto_rect": {
+        "x": 1341,
+        "y": 1940,
+        "w": 376,
+        "h": 775
+      },
+      "final_rect": {
+        "x": 1341,
+        "y": 1940,
+        "w": 376,
+        "h": 775
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_48,12,0_1.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_48,12,0_2.jpg",
+      "auto_rect": {
+        "x": 1277,
+        "y": 1972,
+        "w": 375,
+        "h": 771
+      },
+      "final_rect": {
+        "x": 1277,
+        "y": 1972,
+        "w": 375,
+        "h": 771
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_48,12,0_2.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_54,0,6.jpg",
+      "auto_rect": {
+        "x": 1387,
+        "y": 1984,
+        "w": 381,
+        "h": 778
+      },
+      "final_rect": {
+        "x": 1387,
+        "y": 1984,
+        "w": 381,
+        "h": 778
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_54,0,6.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_54,0,6_1.jpg",
+      "auto_rect": {
+        "x": 1372,
+        "y": 1963,
+        "w": 381,
+        "h": 775
+      },
+      "final_rect": {
+        "x": 1372,
+        "y": 1963,
+        "w": 381,
+        "h": 775
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_54,0,6_1.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_54,0,6_2.jpg",
+      "auto_rect": {
+        "x": 1302,
+        "y": 1955,
+        "w": 380,
+        "h": 780
+      },
+      "final_rect": {
+        "x": 1302,
+        "y": 1955,
+        "w": 380,
+        "h": 780
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_54,0,6_2.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_54,6,0.jpg",
+      "auto_rect": {
+        "x": 1326,
+        "y": 1961,
+        "w": 375,
+        "h": 778
+      },
+      "final_rect": {
+        "x": 1326,
+        "y": 1961,
+        "w": 375,
+        "h": 778
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_54,6,0.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_54,6,0_1.jpg",
+      "auto_rect": {
+        "x": 1334,
+        "y": 1955,
+        "w": 377,
+        "h": 771
+      },
+      "final_rect": {
+        "x": 1334,
+        "y": 1955,
+        "w": 377,
+        "h": 771
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_54,6,0_1.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_54,6,0_2.jpg",
+      "auto_rect": {
+        "x": 1353,
+        "y": 1915,
+        "w": 377,
+        "h": 776
+      },
+      "final_rect": {
+        "x": 1353,
+        "y": 1915,
+        "w": 377,
+        "h": 776
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_54,6,0_2.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_6,0,54.jpg",
+      "auto_rect": {
+        "x": 1420,
+        "y": 2004,
+        "w": 360,
+        "h": 711
+      },
+      "final_rect": {
+        "x": 1420,
+        "y": 2004,
+        "w": 360,
+        "h": 711
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_6,0,54.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_6,0,54_1.jpg",
+      "auto_rect": {
+        "x": 1422,
+        "y": 2018,
+        "w": 359,
+        "h": 710
+      },
+      "final_rect": {
+        "x": 1422,
+        "y": 2018,
+        "w": 359,
+        "h": 710
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_6,0,54_1.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_6,0,54_2.jpg",
+      "auto_rect": {
+        "x": 1444,
+        "y": 2004,
+        "w": 360,
+        "h": 713
+      },
+      "final_rect": {
+        "x": 1444,
+        "y": 2004,
+        "w": 360,
+        "h": 713
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_6,0,54_2.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_6,54,0.jpg",
+      "auto_rect": {
+        "x": 1328,
+        "y": 1939,
+        "w": 373,
+        "h": 776
+      },
+      "final_rect": {
+        "x": 1328,
+        "y": 1939,
+        "w": 373,
+        "h": 776
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_6,54,0.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_6,54,0_1.jpg",
+      "auto_rect": {
+        "x": 1319,
+        "y": 1955,
+        "w": 372,
+        "h": 775
+      },
+      "final_rect": {
+        "x": 1319,
+        "y": 1955,
+        "w": 372,
+        "h": 775
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_6,54,0_1.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "binary/T=5_binary_6,54,0_2.jpg",
+      "auto_rect": {
+        "x": 1381,
+        "y": 1951,
+        "w": 380,
+        "h": 775
+      },
+      "final_rect": {
+        "x": 1381,
+        "y": 1951,
+        "w": 380,
+        "h": 775
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/binary/T=5_binary_6,54,0_2.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "blank/T=5_blank.jpg",
+      "auto_rect": {
+        "x": 1350,
+        "y": 1991,
+        "w": 371,
+        "h": 749
+      },
+      "final_rect": {
+        "x": 1350,
+        "y": 1991,
+        "w": 371,
+        "h": 749
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/blank/T=5_blank.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "blank/T=5_blank_1.jpg",
+      "auto_rect": {
+        "x": 1314,
+        "y": 2008,
+        "w": 370,
+        "h": 740
+      },
+      "final_rect": {
+        "x": 1314,
+        "y": 2008,
+        "w": 370,
+        "h": 740
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/blank/T=5_blank_1.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "blank/T=5_blank_2.jpg",
+      "auto_rect": {
+        "x": 1392,
+        "y": 1974,
+        "w": 376,
+        "h": 746
+      },
+      "final_rect": {
+        "x": 1392,
+        "y": 1974,
+        "w": 376,
+        "h": 746
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/blank/T=5_blank_2.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "single/T=5_single_0,0,60.jpg",
+      "auto_rect": {
+        "x": 1315,
+        "y": 1950,
+        "w": 381,
+        "h": 775
+      },
+      "final_rect": {
+        "x": 1315,
+        "y": 1950,
+        "w": 381,
+        "h": 775
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/single/T=5_single_0,0,60.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "single/T=5_single_0,0,60_1.jpg",
+      "auto_rect": {
+        "x": 1332,
+        "y": 1978,
+        "w": 380,
+        "h": 775
+      },
+      "final_rect": {
+        "x": 1332,
+        "y": 1978,
+        "w": 380,
+        "h": 775
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/single/T=5_single_0,0,60_1.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "single/T=5_single_0,0,60_2.jpg",
+      "auto_rect": {
+        "x": 1338,
+        "y": 1943,
+        "w": 380,
+        "h": 773
+      },
+      "final_rect": {
+        "x": 1338,
+        "y": 1943,
+        "w": 380,
+        "h": 773
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/single/T=5_single_0,0,60_2.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "single/T=5_single_0,60,0.jpg",
+      "auto_rect": {
+        "x": 1295,
+        "y": 1989,
+        "w": 376,
+        "h": 768
+      },
+      "final_rect": {
+        "x": 1295,
+        "y": 1989,
+        "w": 376,
+        "h": 768
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/single/T=5_single_0,60,0.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "single/T=5_single_0,60,0_1.jpg",
+      "auto_rect": {
+        "x": 1303,
+        "y": 2002,
+        "w": 386,
+        "h": 750
+      },
+      "final_rect": {
+        "x": 1303,
+        "y": 2002,
+        "w": 386,
+        "h": 750
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/single/T=5_single_0,60,0_1.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "single/T=5_single_0,60,0_2.jpg",
+      "auto_rect": {
+        "x": 1339,
+        "y": 1982,
+        "w": 386,
+        "h": 770
+      },
+      "final_rect": {
+        "x": 1339,
+        "y": 1982,
+        "w": 386,
+        "h": 770
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/single/T=5_single_0,60,0_2.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "single/T=5_single_60,0,0.jpg",
+      "auto_rect": {
+        "x": 1315,
+        "y": 1981,
+        "w": 375,
+        "h": 764
+      },
+      "final_rect": {
+        "x": 1315,
+        "y": 1981,
+        "w": 375,
+        "h": 764
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/single/T=5_single_60,0,0.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "single/T=5_single_60,0,0_1.jpg",
+      "auto_rect": {
+        "x": 1322,
+        "y": 1970,
+        "w": 375,
+        "h": 764
+      },
+      "final_rect": {
+        "x": 1322,
+        "y": 1970,
+        "w": 375,
+        "h": 764
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/single/T=5_single_60,0,0_1.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "single/T=5_single_60,0,0_2.jpg",
+      "auto_rect": {
+        "x": 1275,
+        "y": 1964,
+        "w": 372,
+        "h": 765
+      },
+      "final_rect": {
+        "x": 1275,
+        "y": 1964,
+        "w": 372,
+        "h": 765
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/single/T=5_single_60,0,0_2.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "ternary/T=5_ternary_18,36,6.jpg",
+      "auto_rect": {
+        "x": 1351,
+        "y": 1979,
+        "w": 382,
+        "h": 776
+      },
+      "final_rect": {
+        "x": 1351,
+        "y": 1979,
+        "w": 382,
+        "h": 776
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/ternary/T=5_ternary_18,36,6.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "ternary/T=5_ternary_18,36,6_1.jpg",
+      "auto_rect": {
+        "x": 1374,
+        "y": 1967,
+        "w": 375,
+        "h": 774
+      },
+      "final_rect": {
+        "x": 1374,
+        "y": 1967,
+        "w": 375,
+        "h": 774
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/ternary/T=5_ternary_18,36,6_1.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "ternary/T=5_ternary_18,36,6_2.jpg",
+      "auto_rect": {
+        "x": 1384,
+        "y": 1981,
+        "w": 375,
+        "h": 773
+      },
+      "final_rect": {
+        "x": 1384,
+        "y": 1981,
+        "w": 375,
+        "h": 773
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/ternary/T=5_ternary_18,36,6_2.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "ternary/T=5_ternary_18,6,36.jpg",
+      "auto_rect": {
+        "x": 1402,
+        "y": 1952,
+        "w": 383,
+        "h": 777
+      },
+      "final_rect": {
+        "x": 1402,
+        "y": 1952,
+        "w": 383,
+        "h": 777
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/ternary/T=5_ternary_18,6,36.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "ternary/T=5_ternary_18,6,36_1.jpg",
+      "auto_rect": {
+        "x": 1413,
+        "y": 1957,
+        "w": 377,
+        "h": 776
+      },
+      "final_rect": {
+        "x": 1413,
+        "y": 1957,
+        "w": 377,
+        "h": 776
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/ternary/T=5_ternary_18,6,36_1.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "ternary/T=5_ternary_18,6,36_2.jpg",
+      "auto_rect": {
+        "x": 1421,
+        "y": 1960,
+        "w": 378,
+        "h": 777
+      },
+      "final_rect": {
+        "x": 1421,
+        "y": 1960,
+        "w": 378,
+        "h": 777
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/ternary/T=5_ternary_18,6,36_2.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "ternary/T=5_ternary_20,20,20.jpg",
+      "auto_rect": {
+        "x": 1306,
+        "y": 2002,
+        "w": 383,
+        "h": 779
+      },
+      "final_rect": {
+        "x": 1306,
+        "y": 2002,
+        "w": 383,
+        "h": 779
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/ternary/T=5_ternary_20,20,20.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "ternary/T=5_ternary_20,20,20_1.jpg",
+      "auto_rect": {
+        "x": 1310,
+        "y": 2007,
+        "w": 381,
+        "h": 779
+      },
+      "final_rect": {
+        "x": 1310,
+        "y": 2007,
+        "w": 381,
+        "h": 779
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/ternary/T=5_ternary_20,20,20_1.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "ternary/T=5_ternary_20,20,20_2.jpg",
+      "auto_rect": {
+        "x": 1316,
+        "y": 1967,
+        "w": 369,
+        "h": 781
+      },
+      "final_rect": {
+        "x": 1316,
+        "y": 1967,
+        "w": 369,
+        "h": 781
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/ternary/T=5_ternary_20,20,20_2.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "ternary/T=5_ternary_36,18,6.jpg",
+      "auto_rect": {
+        "x": 1308,
+        "y": 1991,
+        "w": 377,
+        "h": 775
+      },
+      "final_rect": {
+        "x": 1308,
+        "y": 1991,
+        "w": 377,
+        "h": 775
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/ternary/T=5_ternary_36,18,6.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "ternary/T=5_ternary_36,18,6_1.jpg",
+      "auto_rect": {
+        "x": 1318,
+        "y": 1952,
+        "w": 376,
+        "h": 773
+      },
+      "final_rect": {
+        "x": 1318,
+        "y": 1952,
+        "w": 376,
+        "h": 773
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/ternary/T=5_ternary_36,18,6_1.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "ternary/T=5_ternary_36,18,6_2.jpg",
+      "auto_rect": {
+        "x": 1333,
+        "y": 1964,
+        "w": 377,
+        "h": 773
+      },
+      "final_rect": {
+        "x": 1333,
+        "y": 1964,
+        "w": 377,
+        "h": 773
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/ternary/T=5_ternary_36,18,6_2.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "ternary/T=5_ternary_36,6,18.jpg",
+      "auto_rect": {
+        "x": 1380,
+        "y": 1977,
+        "w": 378,
+        "h": 781
+      },
+      "final_rect": {
+        "x": 1380,
+        "y": 1977,
+        "w": 378,
+        "h": 781
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/ternary/T=5_ternary_36,6,18.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "ternary/T=5_ternary_36,6,18_1.jpg",
+      "auto_rect": {
+        "x": 1378,
+        "y": 1949,
+        "w": 377,
+        "h": 780
+      },
+      "final_rect": {
+        "x": 1378,
+        "y": 1949,
+        "w": 377,
+        "h": 780
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/ternary/T=5_ternary_36,6,18_1.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "ternary/T=5_ternary_36,6,18_2.jpg",
+      "auto_rect": {
+        "x": 1355,
+        "y": 1958,
+        "w": 376,
+        "h": 779
+      },
+      "final_rect": {
+        "x": 1355,
+        "y": 1958,
+        "w": 376,
+        "h": 779
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/ternary/T=5_ternary_36,6,18_2.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "ternary/T=5_ternary_48,6,6.jpg",
+      "auto_rect": {
+        "x": 1309,
+        "y": 1972,
+        "w": 380,
+        "h": 776
+      },
+      "final_rect": {
+        "x": 1309,
+        "y": 1972,
+        "w": 380,
+        "h": 776
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/ternary/T=5_ternary_48,6,6.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "ternary/T=5_ternary_48,6,6_1.jpg",
+      "auto_rect": {
+        "x": 1340,
+        "y": 1974,
+        "w": 379,
+        "h": 762
+      },
+      "final_rect": {
+        "x": 1340,
+        "y": 1974,
+        "w": 379,
+        "h": 762
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/ternary/T=5_ternary_48,6,6_1.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "ternary/T=5_ternary_48,6,6_2.jpg",
+      "auto_rect": {
+        "x": 1345,
+        "y": 1968,
+        "w": 380,
+        "h": 769
+      },
+      "final_rect": {
+        "x": 1345,
+        "y": 1968,
+        "w": 380,
+        "h": 769
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/ternary/T=5_ternary_48,6,6_2.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "ternary/T=5_ternary_6,18,36.jpg",
+      "auto_rect": {
+        "x": 1378,
+        "y": 1949,
+        "w": 376,
+        "h": 776
+      },
+      "final_rect": {
+        "x": 1378,
+        "y": 1949,
+        "w": 376,
+        "h": 776
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/ternary/T=5_ternary_6,18,36.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "ternary/T=5_ternary_6,18,36_1.jpg",
+      "auto_rect": {
+        "x": 1377,
+        "y": 1998,
+        "w": 376,
+        "h": 727
+      },
+      "final_rect": {
+        "x": 1377,
+        "y": 1998,
+        "w": 376,
+        "h": 727
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/ternary/T=5_ternary_6,18,36_1.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "ternary/T=5_ternary_6,18,36_2.jpg",
+      "auto_rect": {
+        "x": 1352,
+        "y": 1995,
+        "w": 374,
+        "h": 726
+      },
+      "final_rect": {
+        "x": 1352,
+        "y": 1995,
+        "w": 374,
+        "h": 726
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/ternary/T=5_ternary_6,18,36_2.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "ternary/T=5_ternary_6,36,18.jpg",
+      "auto_rect": {
+        "x": 1370,
+        "y": 1987,
+        "w": 379,
+        "h": 775
+      },
+      "final_rect": {
+        "x": 1370,
+        "y": 1987,
+        "w": 379,
+        "h": 775
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/ternary/T=5_ternary_6,36,18.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "ternary/T=5_ternary_6,36,18_1.jpg",
+      "auto_rect": {
+        "x": 1373,
+        "y": 1974,
+        "w": 374,
+        "h": 773
+      },
+      "final_rect": {
+        "x": 1373,
+        "y": 1974,
+        "w": 374,
+        "h": 773
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/ternary/T=5_ternary_6,36,18_1.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "ternary/T=5_ternary_6,36,18_2.jpg",
+      "auto_rect": {
+        "x": 1369,
+        "y": 1974,
+        "w": 379,
+        "h": 772
+      },
+      "final_rect": {
+        "x": 1369,
+        "y": 1974,
+        "w": 379,
+        "h": 772
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/ternary/T=5_ternary_6,36,18_2.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "ternary/T=5_ternary_6,48,6.jpg",
+      "auto_rect": {
+        "x": 1348,
+        "y": 1957,
+        "w": 378,
+        "h": 767
+      },
+      "final_rect": {
+        "x": 1348,
+        "y": 1957,
+        "w": 378,
+        "h": 767
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/ternary/T=5_ternary_6,48,6.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "ternary/T=5_ternary_6,48,6_1.jpg",
+      "auto_rect": {
+        "x": 1346,
+        "y": 2073,
+        "w": 378,
+        "h": 645
+      },
+      "final_rect": {
+        "x": 1346,
+        "y": 2073,
+        "w": 378,
+        "h": 645
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/ternary/T=5_ternary_6,48,6_1.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "ternary/T=5_ternary_6,48,6_2.jpg",
+      "auto_rect": {
+        "x": 1343,
+        "y": 1985,
+        "w": 377,
+        "h": 763
+      },
+      "final_rect": {
+        "x": 1343,
+        "y": 1985,
+        "w": 377,
+        "h": 763
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/ternary/T=5_ternary_6,48,6_2.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "ternary/T=5_ternary_6,6,48.jpg",
+      "auto_rect": {
+        "x": 1304,
+        "y": 1980,
+        "w": 385,
+        "h": 776
+      },
+      "final_rect": {
+        "x": 1304,
+        "y": 1980,
+        "w": 385,
+        "h": 776
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/ternary/T=5_ternary_6,6,48.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "ternary/T=5_ternary_6,6,48_1.jpg",
+      "auto_rect": {
+        "x": 1311,
+        "y": 1975,
+        "w": 376,
+        "h": 774
+      },
+      "final_rect": {
+        "x": 1311,
+        "y": 1975,
+        "w": 376,
+        "h": 774
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/ternary/T=5_ternary_6,6,48_1.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    },
+    {
+      "image_relative_path": "ternary/T=5_ternary_6,6,48_2.jpg",
+      "auto_rect": {
+        "x": 1307,
+        "y": 1960,
+        "w": 373,
+        "h": 773
+      },
+      "final_rect": {
+        "x": 1307,
+        "y": 1960,
+        "w": 373,
+        "h": 773
+      },
+      "crop_relative_path": "cropped_cuvettes/T=5/ternary/T=5_ternary_6,6,48_2.png",
+      "auto_flagged": false,
+      "manual_flagged": false,
+      "flag_reason": "",
+      "review_status": "auto_ok"
+    }
+  ],
+  "roi_profile": {
+    "profile_name": "default_roi",
+    "source_crop_path": "cropped_cuvettes/water/binary/water_binary_0,12,48.png",
+    "left_ratio": 0.30446194225721784,
+    "top_ratio": 0.4154838709677419,
+    "right_ratio": 0.6509186351706037,
+    "bottom_ratio": 0.5922580645161291,
+    "trim_percent": 0.05,
+    "created_at": "2026-05-26T11:07:52"
+  }
+}

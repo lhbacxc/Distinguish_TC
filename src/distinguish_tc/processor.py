@@ -166,6 +166,21 @@ def make_warning(pixel_count: int, kept_count: int, std_rgb: np.ndarray) -> str:
     return "；".join(warnings)
 
 
+def compute_color_statistics(kept_rgb_pixels: np.ndarray) -> dict[str, np.ndarray]:
+    rgb_pixels = kept_rgb_pixels.astype(np.float32)
+    rgb_uint8 = np.clip(np.rint(rgb_pixels), 0, 255).astype(np.uint8).reshape(-1, 1, 3)
+    hsv_pixels = cv2.cvtColor(rgb_uint8, cv2.COLOR_RGB2HSV).reshape(-1, 3).astype(np.float32)
+    lab_pixels = cv2.cvtColor(rgb_uint8, cv2.COLOR_RGB2LAB).reshape(-1, 3).astype(np.float32)
+    return {
+        "mean_rgb": rgb_pixels.mean(axis=0),
+        "std_rgb": rgb_pixels.std(axis=0),
+        "mean_hsv": hsv_pixels.mean(axis=0),
+        "std_hsv": hsv_pixels.std(axis=0),
+        "mean_lab": lab_pixels.mean(axis=0),
+        "std_lab": lab_pixels.std(axis=0),
+    }
+
+
 def draw_crop_preview(
     crop_bgr: np.ndarray,
     roi_rect: Rect,
@@ -203,8 +218,13 @@ def process_rgb_results(
             rgb_pixels = roi_rgb.reshape(-1, 3).astype(np.float32)
             kept_pixels = trim_pixels(rgb_pixels, state.roi_profile.trim_percent)
 
-            mean_rgb = kept_pixels.mean(axis=0)
-            std_rgb = kept_pixels.std(axis=0)
+            color_stats = compute_color_statistics(kept_pixels)
+            mean_rgb = color_stats["mean_rgb"]
+            std_rgb = color_stats["std_rgb"]
+            mean_hsv = color_stats["mean_hsv"]
+            std_hsv = color_stats["std_hsv"]
+            mean_lab = color_stats["mean_lab"]
+            std_lab = color_stats["std_lab"]
             kept_count = int(kept_pixels.shape[0])
             warning = make_warning(pixel_count, kept_count, std_rgb)
 
@@ -214,7 +234,11 @@ def process_rgb_results(
             draw_crop_preview(
                 crop_bgr,
                 roi_rect,
-                f"{sample.sample_name} RGB={mean_rgb[0]:.1f},{mean_rgb[1]:.1f},{mean_rgb[2]:.1f}",
+                (
+                    f"{sample.sample_name} "
+                    f"RGB={mean_rgb[0]:.0f},{mean_rgb[1]:.0f},{mean_rgb[2]:.0f} "
+                    f"HSV={mean_hsv[0]:.0f},{mean_hsv[1]:.0f},{mean_hsv[2]:.0f}"
+                ),
                 project_dir / preview_relative,
             )
 
@@ -234,6 +258,18 @@ def process_rgb_results(
                 roi_std_r=float(std_rgb[0]),
                 roi_std_g=float(std_rgb[1]),
                 roi_std_b=float(std_rgb[2]),
+                hsv_mean_h=float(mean_hsv[0]),
+                hsv_mean_s=float(mean_hsv[1]),
+                hsv_mean_v=float(mean_hsv[2]),
+                hsv_std_h=float(std_hsv[0]),
+                hsv_std_s=float(std_hsv[1]),
+                hsv_std_v=float(std_hsv[2]),
+                lab_mean_l=float(mean_lab[0]),
+                lab_mean_a=float(mean_lab[1]),
+                lab_mean_b=float(mean_lab[2]),
+                lab_std_l=float(std_lab[0]),
+                lab_std_a=float(std_lab[1]),
+                lab_std_b=float(std_lab[2]),
                 pixel_count=pixel_count,
                 kept_pixel_count=kept_count,
                 status="ok",
@@ -259,6 +295,18 @@ def process_rgb_results(
                 roi_std_r=None,
                 roi_std_g=None,
                 roi_std_b=None,
+                hsv_mean_h=None,
+                hsv_mean_s=None,
+                hsv_mean_v=None,
+                hsv_std_h=None,
+                hsv_std_s=None,
+                hsv_std_v=None,
+                lab_mean_l=None,
+                lab_mean_a=None,
+                lab_mean_b=None,
+                lab_std_l=None,
+                lab_std_a=None,
+                lab_std_b=None,
                 pixel_count=0,
                 kept_pixel_count=0,
                 status="failed",

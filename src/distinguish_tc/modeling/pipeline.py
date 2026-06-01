@@ -6,7 +6,13 @@ from pathlib import Path
 import shutil
 
 from .baseline import train_baseline_model
-from .dataset import build_long_table, build_qc_summary, build_training_table, get_feature_columns, load_modeling_config
+from .dataset import (
+    build_long_table,
+    build_qc_summary,
+    build_training_table,
+    get_default_feature_columns,
+    load_modeling_config,
+)
 
 
 def run_modeling_pipeline(
@@ -22,7 +28,7 @@ def run_modeling_pipeline(
     long_frame = build_long_table(config)
     qc_frame = build_qc_summary(long_frame, [item.buffer_name for item in config.buffers])
     training_frame = build_training_table(long_frame, qc_frame, min_presence_uM=config.min_presence_uM)
-    feature_columns = get_feature_columns(training_frame)
+    feature_columns = get_default_feature_columns(training_frame)
 
     long_path = processed_dir / "buffer_rgb_long.csv"
     qc_path = processed_dir / "training_qc_summary.csv"
@@ -40,6 +46,7 @@ def run_modeling_pipeline(
 
     metrics["buffer_names"] = [item.buffer_name for item in config.buffers]
     metrics["feature_prefixes"] = [item.feature_prefix for item in config.buffers]
+    metrics["default_feature_set"] = "rgb_best_plus_hsv_raw"
     metrics["input_csv_paths"] = [item.csv_path.as_posix() for item in config.buffers]
     metrics["processed_outputs"] = {
         "buffer_rgb_long": long_path.as_posix(),
