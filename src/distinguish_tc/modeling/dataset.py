@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from itertools import combinations
 import json
 import re
 from dataclasses import dataclass
@@ -22,6 +23,18 @@ LONG_COLUMNS = [
     "roi_std_r",
     "roi_std_g",
     "roi_std_b",
+    "hsv_mean_h",
+    "hsv_mean_s",
+    "hsv_mean_v",
+    "hsv_std_h",
+    "hsv_std_s",
+    "hsv_std_v",
+    "lab_mean_l",
+    "lab_mean_a",
+    "lab_mean_b",
+    "lab_std_l",
+    "lab_std_a",
+    "lab_std_b",
     "pixel_count",
     "kept_pixel_count",
     "status",
@@ -38,6 +51,18 @@ FEATURE_SUFFIX_MAP = {
     "roi_std_r": "std_r",
     "roi_std_g": "std_g",
     "roi_std_b": "std_b",
+    "hsv_mean_h": "hsv_mean_h",
+    "hsv_mean_s": "hsv_mean_s",
+    "hsv_mean_v": "hsv_mean_v",
+    "hsv_std_h": "hsv_std_h",
+    "hsv_std_s": "hsv_std_s",
+    "hsv_std_v": "hsv_std_v",
+    "lab_mean_l": "lab_mean_l",
+    "lab_mean_a": "lab_mean_a",
+    "lab_mean_b": "lab_mean_b",
+    "lab_std_l": "lab_std_l",
+    "lab_std_a": "lab_std_a",
+    "lab_std_b": "lab_std_b",
 }
 
 
@@ -105,6 +130,18 @@ def _read_single_buffer_csv(source: BufferSource) -> pd.DataFrame:
         "roi_std_r",
         "roi_std_g",
         "roi_std_b",
+        "hsv_mean_h",
+        "hsv_mean_s",
+        "hsv_mean_v",
+        "hsv_std_h",
+        "hsv_std_s",
+        "hsv_std_v",
+        "lab_mean_l",
+        "lab_mean_a",
+        "lab_mean_b",
+        "lab_std_l",
+        "lab_std_a",
+        "lab_std_b",
         "pixel_count",
         "kept_pixel_count",
         "status",
@@ -199,7 +236,7 @@ def build_training_table(long_frame: pd.DataFrame, qc_frame: pd.DataFrame, min_p
     ].copy()
 
     if filtered.empty:
-        raise ValueError("没有满足训练条件的完整双缓冲样本")
+        raise ValueError("没有满足训练条件的完整多缓冲样本")
 
     index_columns = [
         "sample_name",
@@ -222,6 +259,7 @@ def build_training_table(long_frame: pd.DataFrame, qc_frame: pd.DataFrame, min_p
         feature_frames.append(pivot)
 
     wide = pd.concat([wide_base] + feature_frames, axis=1).reset_index()
+    wide = add_derived_color_features(wide)
     wide["tc_present"] = (wide["tc_conc_uM"] >= min_presence_uM).astype(int)
     wide["otc_present"] = (wide["otc_conc_uM"] >= min_presence_uM).astype(int)
     wide["ctc_present"] = (wide["ctc_conc_uM"] >= min_presence_uM).astype(int)
@@ -241,6 +279,40 @@ def build_training_table(long_frame: pd.DataFrame, qc_frame: pd.DataFrame, min_p
     return wide[public_columns + feature_columns].sort_values(by=["sample_name", "replicate_id"], kind="stable").reset_index(drop=True)
 
 
+def _get_buffer_prefixes(training_frame: pd.DataFrame) -> list[str]:
+    prefixes: list[str] = []
+    for column in training_frame.columns:
+        if column.endswith("_mean_r"):
+            prefix = column[: -len("_mean_r")]
+            if prefix.startswith(("hsv", "lab")):
+                continue
+            if prefix not in prefixes:
+                prefixes.append(prefix)
+    return prefixes
+
+
+def add_derived_color_features(training_frame: pd.DataFrame) -> pd.DataFrame:
+    frame = training_frame.copy()
+    prefixes = _get_buffer_prefixes(frame)
+    for prefix in prefixes:
+        mean_r = f"{prefix}_mean_r"
+        mean_g = f"{prefix}_mean_g"
+        mean_b = f"{prefix}_mean_b"
+        if {mean_r, mean_g, mean_b}.issubset(frame.columns):
+            total = frame[mean_r] + frame[mean_g] + frame[mean_b]
+            frame[f"{prefix}_norm_r"] = frame[mean_r] / total
+            frame[f"{prefix}_norm_g"] = frame[mean_g] / total
+            frame[f"{prefix}_norm_b"] = frame[mean_b] / total
+
+    for right, left in combinations(prefixes, 2):
+        for channel in ("r", "g", "b"):
+            left_column = f"{left}_mean_{channel}"
+            right_column = f"{right}_mean_{channel}"
+            if {left_column, right_column}.issubset(frame.columns):
+                frame[f"{left}_minus_{right}_mean_{channel}"] = frame[left_column] - frame[right_column]
+    return frame
+
+
 def get_feature_columns(training_frame: pd.DataFrame) -> list[str]:
     excluded = {
         "sample_name",
@@ -254,3 +326,25 @@ def get_feature_columns(training_frame: pd.DataFrame) -> list[str]:
         "ctc_present",
     }
     return [column for column in training_frame.columns if column not in excluded]
+
+
+def get_default_feature_columns(training_frame: pd.DataFrame) -> list[str]:
+    feature_columns = get_feature_columns(training_frame)
+    selected: list[str] = []
+    for column in feature_columns:
+        if "_lab_" in column:
+            continue
+        if "_minus_" in column and "_mean_" not in column:
+            continue
+        if "_minus_" in column and not column.endswith(("_mean_r", "_mean_g", "_mean_b")):
+            continue
+        if "_hsv_" in column:
+            selected.append(column)
+            continue
+        if column.endswith(("_mean_r", "_mean_g", "_mean_b", "_std_r", "_std_g", "_std_b")):
+            selected.append(column)
+            continue
+        if "_norm_" in column:
+            selected.append(column)
+            continue
+    return sorted(dict.fromkeys(selected))

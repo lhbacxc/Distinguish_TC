@@ -74,6 +74,18 @@ class ProcessingResult:
     roi_std_r: float | None
     roi_std_g: float | None
     roi_std_b: float | None
+    hsv_mean_h: float | None
+    hsv_mean_s: float | None
+    hsv_mean_v: float | None
+    hsv_std_h: float | None
+    hsv_std_s: float | None
+    hsv_std_v: float | None
+    lab_mean_l: float | None
+    lab_mean_a: float | None
+    lab_mean_b: float | None
+    lab_std_l: float | None
+    lab_std_a: float | None
+    lab_std_b: float | None
     pixel_count: int
     kept_pixel_count: int
     status: str

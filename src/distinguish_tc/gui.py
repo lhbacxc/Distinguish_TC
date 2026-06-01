@@ -23,6 +23,12 @@ from .processor import (
 from .project_store import load_project_state, save_project_state
 
 
+def format_triplet(values: tuple[float | None, float | None, float | None], labels: tuple[str, str, str]) -> str:
+    if any(value is None for value in values):
+        return ""
+    return " ".join(f"{label}{value:.1f}" for label, value in zip(labels, values))
+
+
 class ImageRectCanvas(ttk.Frame):
     def __init__(self, master, editable: bool = False, on_rect_changed=None) -> None:
         super().__init__(master)
@@ -276,7 +282,7 @@ class DistinguishTCApp:
 
         ttk.Label(left, text="ROI 配置名").grid(row=0, column=0, sticky="w")
         ttk.Entry(left, textvariable=self.roi_profile_name_var, width=30).grid(row=1, column=0, sticky="ew", pady=(4, 8))
-        ttk.Label(left, text="裁剪后再标 ROI，后续全部 RGB 基于裁剪图计算").grid(row=2, column=0, sticky="w")
+        ttk.Label(left, text="裁剪后再标 ROI，后续全部颜色特征都基于裁剪图计算").grid(row=2, column=0, sticky="w")
         ttk.Label(left, text="亮度裁剪比例").grid(row=3, column=0, sticky="w", pady=(8, 0))
         ttk.Scale(left, variable=self.trim_percent_var, from_=0.0, to=0.2, orient="horizontal").grid(row=4, column=0, sticky="ew")
         ttk.Label(left, textvariable=self.trim_percent_var).grid(row=5, column=0, sticky="w")
@@ -286,7 +292,7 @@ class DistinguishTCApp:
         self.roi_listbox.grid(row=7, column=0, sticky="nsw", pady=(8, 0))
         self.roi_listbox.bind("<<ListboxSelect>>", lambda _event: self.show_roi_selection())
         ttk.Button(left, text="保存当前 ROI 配置", command=self.save_roi_profile).grid(row=8, column=0, sticky="ew", pady=(8, 0))
-        ttk.Button(left, text="批量提取 RGB", command=self.start_rgb_processing).grid(row=9, column=0, sticky="ew", pady=(6, 0))
+        ttk.Button(left, text="批量提取颜色特征", command=self.start_rgb_processing).grid(row=9, column=0, sticky="ew", pady=(6, 0))
 
         self.roi_canvas = ImageRectCanvas(self.roi_tab, editable=True, on_rect_changed=self.on_roi_rect_changed)
         self.roi_canvas.grid(row=0, column=1, sticky="nsew", padx=(10, 10))
@@ -299,12 +305,13 @@ class DistinguishTCApp:
         result_frame.columnconfigure(0, weight=1)
         result_frame.rowconfigure(0, weight=1)
 
-        columns = ("sample_name", "replicate_id", "status", "roi_mean_r", "roi_mean_g", "roi_mean_b", "warning")
+        columns = ("sample_name", "replicate_id", "status", "rgb_mean", "hsv_mean", "warning")
         self.result_tree = ttk.Treeview(result_frame, columns=columns, show="headings", height=14)
         for column in columns:
             self.result_tree.heading(column, text=column)
             self.result_tree.column(column, width=130, anchor="center")
         self.result_tree.column("sample_name", width=230, anchor="w")
+        self.result_tree.column("warning", width=260, anchor="w")
         self.result_tree.grid(row=0, column=0, sticky="nsew")
         self.result_tree.bind("<<TreeviewSelect>>", lambda _event: self.show_result_preview())
 
@@ -660,7 +667,7 @@ class DistinguishTCApp:
         )
         self.state.roi_profile = profile
         save_project_state(self.state, self.project_file_path())
-        self.status_var.set("ROI 配置已保存，后续 RGB 提取将基于裁剪图使用该配置")
+        self.status_var.set("ROI 配置已保存，后续颜色特征提取将基于裁剪图使用该配置")
         self.refresh_summary()
 
     def start_rgb_processing(self) -> None:
@@ -672,7 +679,7 @@ class DistinguishTCApp:
             return
 
         self.progress_var.set(0)
-        self.status_var.set("正在基于裁剪图批量提取 RGB...")
+        self.status_var.set("正在基于裁剪图批量提取颜色特征...")
 
         def worker() -> None:
             def progress(index: int, total: int, sample: ImageSample, result: ProcessingResult) -> None:
@@ -681,7 +688,7 @@ class DistinguishTCApp:
                     0,
                     lambda: (
                         self.progress_var.set(percent),
-                        self.status_var.set(f"提取 RGB {index}/{total}: {sample.relative_path.as_posix()} | {result.status}"),
+                        self.status_var.set(f"提取特征 {index}/{total}: {sample.relative_path.as_posix()} | {result.status}"),
                     ),
                 )
 
@@ -691,7 +698,7 @@ class DistinguishTCApp:
             def finish() -> None:
                 self.results = results
                 self.progress_var.set(100)
-                self.status_var.set(f"RGB 提取完成，结果已保存到 {csv_path}")
+                self.status_var.set(f"颜色特征提取完成，结果已保存到 {csv_path}")
                 self.refresh_result_table()
                 self.show_roi_selection()
 
@@ -707,9 +714,8 @@ class DistinguishTCApp:
                 result.sample_name,
                 result.replicate_id,
                 result.status,
-                "" if result.roi_mean_r is None else f"{result.roi_mean_r:.2f}",
-                "" if result.roi_mean_g is None else f"{result.roi_mean_g:.2f}",
-                "" if result.roi_mean_b is None else f"{result.roi_mean_b:.2f}",
+                format_triplet((result.roi_mean_r, result.roi_mean_g, result.roi_mean_b), ("R", "G", "B")),
+                format_triplet((result.hsv_mean_h, result.hsv_mean_s, result.hsv_mean_v), ("H", "S", "V")),
                 result.warning or result.error_message,
             )
             self.result_tree.insert("", "end", iid=str(index), values=values)
