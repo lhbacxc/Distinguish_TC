@@ -5,7 +5,7 @@ from datetime import datetime
 from pathlib import Path
 import shutil
 
-from .baseline import train_baseline_model
+from .baseline import evaluate_repeated_group_splits, train_baseline_model
 from .dataset import (
     build_long_table,
     build_qc_summary,
@@ -20,6 +20,7 @@ def run_modeling_pipeline(
     processed_dir: Path,
     runs_dir: Path,
     overwrite_run_dir: Path | None = None,
+    grouped_eval_seed_count: int = 30,
 ) -> dict[str, str]:
     config = load_modeling_config(config_path)
     processed_dir.mkdir(parents=True, exist_ok=True)
@@ -43,6 +44,13 @@ def run_modeling_pipeline(
         test_size=config.test_size,
         random_seed=config.random_seed,
     )
+    grouped_eval_frame, grouped_eval_summary = evaluate_repeated_group_splits(
+        training_frame=training_frame,
+        feature_columns=feature_columns,
+        test_size=config.test_size,
+        seed_count=grouped_eval_seed_count,
+        random_seed_start=0,
+    )
 
     metrics["buffer_names"] = [item.buffer_name for item in config.buffers]
     metrics["feature_prefixes"] = [item.feature_prefix for item in config.buffers]
@@ -52,6 +60,12 @@ def run_modeling_pipeline(
         "buffer_rgb_long": long_path.as_posix(),
         "training_qc_summary": qc_path.as_posix(),
         "training_features_wide": training_path.as_posix(),
+    }
+    metrics["grouped_evaluation"] = {
+        "evaluation_name": "repeated_grouped_holdout",
+        "seed_count": grouped_eval_seed_count,
+        "summary_file": "grouped_cv_summary.json",
+        "details_file": "grouped_cv_details.csv",
     }
 
     if overwrite_run_dir is not None:
@@ -70,10 +84,14 @@ def run_modeling_pipeline(
     metrics_path = run_dir / "model_metrics.json"
     predictions_path = run_dir / "predictions.csv"
     features_path = run_dir / "feature_columns.txt"
+    grouped_eval_json_path = run_dir / "grouped_cv_summary.json"
+    grouped_eval_csv_path = run_dir / "grouped_cv_details.csv"
 
     metrics_path.write_text(json.dumps(metrics, ensure_ascii=False, indent=2), encoding="utf-8")
     predictions_frame.to_csv(predictions_path, index=False, encoding="utf-8-sig")
     features_path.write_text("\n".join(feature_columns) + "\n", encoding="utf-8")
+    grouped_eval_json_path.write_text(json.dumps(grouped_eval_summary, ensure_ascii=False, indent=2), encoding="utf-8")
+    grouped_eval_frame.to_csv(grouped_eval_csv_path, index=False, encoding="utf-8-sig")
 
     return {
         "long_path": long_path.as_posix(),
@@ -83,4 +101,6 @@ def run_modeling_pipeline(
         "metrics_path": metrics_path.as_posix(),
         "predictions_path": predictions_path.as_posix(),
         "features_path": features_path.as_posix(),
+        "grouped_eval_json_path": grouped_eval_json_path.as_posix(),
+        "grouped_eval_csv_path": grouped_eval_csv_path.as_posix(),
     }

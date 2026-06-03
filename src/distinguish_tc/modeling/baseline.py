@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import math
+import statistics
 from dataclasses import dataclass
 
 import numpy as np
@@ -151,3 +152,90 @@ def train_baseline_model(
         "macro_f1": macro_f1,
     }
     return test_frame, metrics
+
+
+def evaluate_repeated_group_splits(
+    training_frame: pd.DataFrame,
+    feature_columns: list[str],
+    test_size: float,
+    seed_count: int,
+    random_seed_start: int = 0,
+) -> tuple[pd.DataFrame, dict[str, object]]:
+    if seed_count < 1:
+        raise ValueError("重复分组评估次数必须至少为 1")
+
+    records: list[dict[str, float | int]] = []
+    macro_f1_values: list[float] = []
+    exact_match_values: list[float] = []
+    hamming_loss_values: list[float] = []
+
+    per_label_f1_values: dict[str, list[float]] = {label: [] for label in LABEL_COLUMNS}
+    per_label_precision_values: dict[str, list[float]] = {label: [] for label in LABEL_COLUMNS}
+    per_label_recall_values: dict[str, list[float]] = {label: [] for label in LABEL_COLUMNS}
+
+    for seed in range(random_seed_start, random_seed_start + seed_count):
+        _, metrics = train_baseline_model(
+            training_frame=training_frame,
+            feature_columns=feature_columns,
+            test_size=test_size,
+            random_seed=seed,
+        )
+
+        row: dict[str, float | int] = {
+            "random_seed": seed,
+            "train_rows": int(metrics["train_rows"]),
+            "test_rows": int(metrics["test_rows"]),
+            "train_groups": int(metrics["train_groups"]),
+            "test_groups": int(metrics["test_groups"]),
+            "macro_f1": float(metrics["macro_f1"]),
+            "exact_match_ratio": float(metrics["exact_match_ratio"]),
+            "hamming_loss": float(metrics["hamming_loss"]),
+        }
+        macro_f1_values.append(float(metrics["macro_f1"]))
+        exact_match_values.append(float(metrics["exact_match_ratio"]))
+        hamming_loss_values.append(float(metrics["hamming_loss"]))
+
+        for label_name in LABEL_COLUMNS:
+            label_metrics = metrics["label_metrics"][label_name]
+            precision = float(label_metrics["precision"])
+            recall = float(label_metrics["recall"])
+            f1 = float(label_metrics["f1"])
+            base_name = label_name.replace("_present", "")
+            row[f"{base_name}_precision"] = precision
+            row[f"{base_name}_recall"] = recall
+            row[f"{base_name}_f1"] = f1
+            per_label_precision_values[label_name].append(precision)
+            per_label_recall_values[label_name].append(recall)
+            per_label_f1_values[label_name].append(f1)
+
+        records.append(row)
+
+    details_frame = pd.DataFrame(records).sort_values(by="random_seed", kind="stable").reset_index(drop=True)
+
+    label_summary: dict[str, dict[str, float]] = {}
+    for label_name in LABEL_COLUMNS:
+        label_summary[label_name] = {
+            "precision_mean": float(sum(per_label_precision_values[label_name]) / seed_count),
+            "precision_std": float(statistics.pstdev(per_label_precision_values[label_name])),
+            "recall_mean": float(sum(per_label_recall_values[label_name]) / seed_count),
+            "recall_std": float(statistics.pstdev(per_label_recall_values[label_name])),
+            "f1_mean": float(sum(per_label_f1_values[label_name]) / seed_count),
+            "f1_std": float(statistics.pstdev(per_label_f1_values[label_name])),
+        }
+
+    summary = {
+        "evaluation_name": "repeated_grouped_holdout",
+        "seed_count": seed_count,
+        "random_seed_start": random_seed_start,
+        "test_size": test_size,
+        "feature_count": len(feature_columns),
+        "feature_columns": feature_columns,
+        "macro_f1_mean": float(sum(macro_f1_values) / seed_count),
+        "macro_f1_std": float(statistics.pstdev(macro_f1_values)),
+        "exact_match_ratio_mean": float(sum(exact_match_values) / seed_count),
+        "exact_match_ratio_std": float(statistics.pstdev(exact_match_values)),
+        "hamming_loss_mean": float(sum(hamming_loss_values) / seed_count),
+        "hamming_loss_std": float(statistics.pstdev(hamming_loss_values)),
+        "label_metrics_summary": label_summary,
+    }
+    return details_frame, summary

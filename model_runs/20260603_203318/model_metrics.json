@@ -305,5 +305,11 @@
     "buffer_rgb_long": "D:/Desktop/Distinguish_TC/data_processed/buffer_rgb_long.csv",
     "training_qc_summary": "D:/Desktop/Distinguish_TC/data_processed/training_qc_summary.csv",
     "training_features_wide": "D:/Desktop/Distinguish_TC/data_processed/training_features_wide.csv"
+  },
+  "grouped_evaluation": {
+    "evaluation_name": "repeated_grouped_holdout",
+    "seed_count": 30,
+    "summary_file": "grouped_cv_summary.json",
+    "details_file": "grouped_cv_details.csv"
   }
 }

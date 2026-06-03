@@ -3,7 +3,8 @@ param(
     [string]$ProcessedDir = "data_processed",
     [string]$RunsDir = "model_runs",
     [string]$OverwriteRunDir = "",
-    [switch]$OverwriteLatest
+    [switch]$OverwriteLatest,
+    [int]$GroupedEvalSeedCount = 30
 )
 
 $pythonExe = "D:\Software\Miniconda\envs\Distinguish_TC\python.exe"
@@ -39,7 +40,8 @@ $arguments = @(
     ".\run_modeling_pipeline.py",
     "--config", $Config,
     "--processed-dir", $ProcessedDir,
-    "--runs-dir", $RunsDir
+    "--runs-dir", $RunsDir,
+    "--grouped-eval-seed-count", $GroupedEvalSeedCount
 )
 
 if (-not [string]::IsNullOrWhiteSpace($OverwriteRunDir)) {
