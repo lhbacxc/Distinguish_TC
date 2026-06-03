@@ -17,6 +17,11 @@
       "buffer_name": "T=5",
       "feature_prefix": "tris5",
       "csv_path": "project_data_t5/rgb_results/rgb_results.csv"
+    },
+    {
+      "buffer_name": "T=10",
+      "feature_prefix": "tris10",
+      "csv_path": "project_data_t10/rgb_results/rgb_results.csv"
     }
   ]
 }
