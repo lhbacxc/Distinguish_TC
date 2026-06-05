@@ -1,0 +1,125 @@
+{
+  "model_name": "numpy_logistic_regression_ovr",
+  "train_rows": 84,
+  "test_rows": 21,
+  "train_groups": 28,
+  "test_groups": 7,
+  "test_size": 0.2,
+  "random_seed": 42,
+  "feature_count": 18,
+  "feature_columns": [
+    "tris5_mean_b",
+    "tris5_mean_g",
+    "tris5_mean_r",
+    "tris5_std_b",
+    "tris5_std_g",
+    "tris5_std_r",
+    "tris8_mean_b",
+    "tris8_mean_g",
+    "tris8_mean_r",
+    "tris8_std_b",
+    "tris8_std_g",
+    "tris8_std_r",
+    "water_mean_b",
+    "water_mean_g",
+    "water_mean_r",
+    "water_std_b",
+    "water_std_g",
+    "water_std_r"
+  ],
+  "feature_scaler_mean": [
+    167.7223656063988,
+    155.73515337989443,
+    143.880719377881,
+    11.515997384275709,
+    11.356922727255593,
+    11.280580510695776,
+    206.17745354062035,
+    215.2146482921782,
+    152.3643379097893,
+    14.896157874947502,
+    15.39924022697267,
+    13.977467834949493,
+    181.53099550595243,
+    169.0510039547619,
+    156.34107893821428,
+    12.168740397142852,
+    11.862309092488095,
+    11.697900477226193
+  ],
+  "feature_scaler_std": [
+    24.470530475664393,
+    18.49831808428027,
+    30.1234653604119,
+    2.7277836997932168,
+    2.803322131655551,
+    3.086276390194054,
+    19.177220240513805,
+    17.879013694172052,
+    30.024935671567246,
+    4.467415876879736,
+    4.803171186716013,
+    4.056734676316547,
+    26.103925899211514,
+    20.97310766892437,
+    30.396251339517242,
+    1.9207443110756721,
+    2.0623099307315806,
+    2.4611054409314184
+  ],
+  "label_metrics": {
+    "tc_present": {
+      "accuracy": 0.7142857142857143,
+      "precision": 0.8333333333333334,
+      "recall": 0.8333333333333334,
+      "f1": 0.8333333333333334,
+      "tp": 15,
+      "tn": 0,
+      "fp": 3,
+      "fn": 3
+    },
+    "otc_present": {
+      "accuracy": 0.7142857142857143,
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1": 0.8,
+      "tp": 12,
+      "tn": 3,
+      "fp": 0,
+      "fn": 6
+    },
+    "ctc_present": {
+      "accuracy": 0.5714285714285714,
+      "precision": 0.6666666666666666,
+      "recall": 0.5,
+      "f1": 0.5714285714285715,
+      "tp": 6,
+      "tn": 6,
+      "fp": 3,
+      "fn": 6
+    }
+  },
+  "exact_match_ratio": 0.19047619047619047,
+  "hamming_loss": 0.3333333333333333,
+  "macro_f1": 0.734920634920635,
+  "buffer_names": [
+    "water",
+    "T=8",
+    "T=5"
+  ],
+  "feature_prefixes": [
+    "water",
+    "tris8",
+    "tris5"
+  ],
+  "input_csv_paths": [
+    "D:/Desktop/Distinguish_TC/project_data/rgb_results/rgb_results.csv",
+    "D:/Desktop/Distinguish_TC/project_data_t8/rgb_results/rgb_results.csv",
+    "D:/Desktop/Distinguish_TC/project_data_t5/rgb_results/rgb_results.csv"
+  ],
+  "processed_outputs": {
+    "buffer_rgb_long": "D:/Desktop/Distinguish_TC/data_processed/buffer_rgb_long.csv",
+    "training_qc_summary": "D:/Desktop/Distinguish_TC/data_processed/training_qc_summary.csv",
+    "training_features_wide": "D:/Desktop/Distinguish_TC/data_processed/training_features_wide.csv"
+  }
+}

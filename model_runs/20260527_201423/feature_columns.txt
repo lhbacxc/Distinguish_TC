@@ -1,0 +1,12 @@
+tris8_mean_b
+tris8_mean_g
+tris8_mean_r
+tris8_std_b
+tris8_std_g
+tris8_std_r
+water_mean_b
+water_mean_g
+water_mean_r
+water_std_b
+water_std_g
+water_std_r
