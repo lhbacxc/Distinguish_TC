@@ -74,7 +74,7 @@ flowchart TD
 
 ### 3.1 重复 30 次分组切分平均结果（主判断依据）
 
-`model_runs/20260603_203318/grouped_cv_summary.json`，四缓冲、未加权均值：
+来源 `model_runs/20260603_203318/grouped_cv_summary.json`（重复分组评估的产物文件位于 `codex/grouped-cv-training-eval` 分支），四缓冲、未加权均值：
 
 | 指标 | 均值 | 标准差 |
 | --- | --- | --- |
@@ -337,6 +337,8 @@ python run_color_feature_experiments.py --seed-count 30
 
 - `grouped_cv_summary.json`：均值/标准差 + 各标签 `precision/recall/f1` 统计
 - `grouped_cv_details.csv`：逐次明细
+
+> 这两个产物由重复分组评估新增，当前位于 `codex/grouped-cv-training-eval` 分支；`main` 分支上仅有单次结果文件。执行一次 `python run_modeling_pipeline.py` 即可在本地产出。
 
 次数可通过 `启动模型训练.ps1 -GroupedEvalSeedCount <n>` 或 `run_modeling_pipeline.py --grouped-eval-seed-count <n>` 调整。
 
